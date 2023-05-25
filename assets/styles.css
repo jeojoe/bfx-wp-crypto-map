@@ -1,0 +1,96 @@
+.bfx-crypto-container {
+  position: relative;
+}
+
+.bfx-marker-popup .header {
+  display: flex;
+  gap: 12px;
+}
+
+.bfx-marker-popup .logo {
+  flex-basis: 44px;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+}
+
+.bfx-marker-popup .title h3 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bfx-marker-popup .description {
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.bfx-marker-popup .footer {
+  margin-top: 15px;
+}
+
+.bfx-marker-popup .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.bfx-marker-popup .label {
+  font-weight: bold;
+}
+
+.bfx-marker-popup .tag {
+  color: #C85263;
+  background: rgba(205, 188, 190, 0.16);
+  border-radius: 6px;
+  padding: 3px 9px;
+}
+
+.bfx-marker-popup .tokens {
+  display: flex;
+  gap: 10px;
+}
+
+.bfx-marker-popup .token {
+  color: #C85263;
+  background: rgba(205, 188, 190, 0.16);
+  border-radius: 10px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bfx-mobile-popup {
+  margin-bottom: 30px;
+}
+
+/* start filter */
+.bfx-crypto-filter {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  height: 52px;
+  box-sizing: border-box;
+  padding: 6px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1000000; /* on top of the map */
+  top: 8px;
+  left: 8px;
+}
+
+/* end filter */
+
+/* start leaflet reset */
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+}
+/* end leaflet reset */
