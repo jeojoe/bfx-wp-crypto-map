@@ -74,6 +74,7 @@
   z-index: 450; /* on top of the map */
   top: 8px;
   left: 8px;
+  width: 800px;
 }
 
 .bfx-crypto-filter-bar {
@@ -85,6 +86,17 @@
   padding: 6px;
   background-color: #fff;
   border-radius: 12px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .bfx-crypto-filter, .bfx-crypto-filter-bar {
+    width: 280px;
+  }
+}
+
+.bfx-crypto-filter-bar > * {
+  flex: 1;
 }
 
 .bfx-crypto-filter-popup {
@@ -93,12 +105,18 @@
   color: #586871;
   top: 60px;
   right: 0;
-  width: 280px;
   max-height: 400px;
   box-sizing: border-box;
   padding: 12px;
   border-radius: 12px;
   overflow-y: auto;
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .bfx-crypto-filter-popup {
+    width: 280px;
+  }
 }
 
 .bfx-cryto-filter-popup .filter-title {
@@ -116,10 +134,22 @@
   margin: 0;
 }
 
+.bfx-crypto-filter .filter-content .filter-checkbox {
+  border-bottom: 1px solid rgba(65, 102, 188, 0.06);
+  margin-bottom: 14px;
+}
+
 .bfx-crypto-filter .filter-checkbox label {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.bfx-crypto-filter .filter-title {
+  font-weight: bold;
+  border-bottom: 1px solid rgba(65, 102, 188, 0.06);
+  margin-bottom: 14px;
+  padding-bottom: 5px;
 }
 
 .bfx-crypto-filter .filter-checkbox label:before {
@@ -135,7 +165,7 @@
 }
 
 #bfx-crypto-filter-popup {
-  display: none;;
+  display: none;
 }
 
 #bfx-crypto-filter-popup.active {
@@ -156,8 +186,58 @@
   display: block;
 }
 
+.bfx-crypto-filter .search-container {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  box-sizing: border-box;
+  gap: 5px;
+  background: rgba(200, 82, 99, 0.06);
+  border-radius: 6px;
+  height: 40px;
+}
+
+.bfx-crypto-filter .search-container img {
+  height: 13px;
+  width: 14px;
+}
+
+.bfx-crypto-filter .search-container input {
+  border: 0;
+  background-color: transparent;
+  color: rgba(23, 45, 62, 0.5);
+  font-size: 14px;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.bfx-crypto-filter .filter-btn {
+  background: rgba(200, 82, 99, 0.06);
+  color: rgba(23, 45, 62, 0.5);
+  border-radius: 6px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.bfx-crypto-filter .filter-btn .arrow {
+  flex: 1;
+  text-align: right;
+}
+
 @media screen and (max-width: 768px) {
-  .bfx-crypto-filter .filter-btn span {
+  .bfx-crypto-filter .search-container {
+    width: 200px;
+  }
+
+  .bfx-crypto-filter .filter-btn {
+    width: 65px;
+  }
+
+  .bfx-crypto-filter .filter-btn span, .bfx-crypto-filter .filter-btn .arrow {
     display: none;
   }
 }
