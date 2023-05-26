@@ -70,6 +70,13 @@
 
 /* start filter */
 .bfx-crypto-filter {
+  position: absolute;
+  z-index: 450; /* on top of the map */
+  top: 8px;
+  left: 8px;
+}
+
+.bfx-crypto-filter-bar {
   display: flex;
   gap: 6px;
   align-items: center;
@@ -77,12 +84,83 @@
   box-sizing: border-box;
   padding: 6px;
   background-color: #fff;
-  position: absolute;
-  z-index: 1000000; /* on top of the map */
-  top: 8px;
-  left: 8px;
+  border-radius: 12px;
 }
 
+.bfx-crypto-filter-popup {
+  position: absolute;
+  background-color: #fff;
+  color: #586871;
+  top: 60px;
+  right: 0;
+  width: 280px;
+  max-height: 400px;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 12px;
+  overflow-y: auto;
+}
+
+.bfx-cryto-filter-popup .filter-title {
+  font-weight: bold;
+}
+
+.bfx-crypto-filter .filter-checkbox input {
+  display: none;
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+}
+
+.bfx-crypto-filter .filter-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bfx-crypto-filter .filter-checkbox label:before {
+  content: "";
+  background: url('./unchecked.png');
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.bfx-crypto-filter .filter-checkbox input:checked + label:before {
+  background: url('./checked.png');
+}
+
+#bfx-crypto-filter-popup {
+  display: none;;
+}
+
+#bfx-crypto-filter-popup.active {
+  display: block;
+}
+
+#bfx-crypto-filter-popup-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 449;
+  display: none;
+}
+
+#bfx-crypto-filter-popup-overlay.active {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .bfx-crypto-filter .filter-btn span {
+    display: none;
+  }
+}
 /* end filter */
 
 /* start leaflet reset */

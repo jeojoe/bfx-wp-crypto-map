@@ -28,14 +28,98 @@ function bfx_crypto_map_handler( $atts ) {
   $html = <<<HTML
   <div class="bfx-crypto-container">
     <div class="bfx-crypto-filter">
-      <div class="search-container">
-        <input type="search" placeholder="Search" />
+      <div class="bfx-crypto-filter-bar">
+        <div class="search-container">
+          <input id="bfx-crypto-search-input" type="search" placeholder="Search" />
+        </div>
+        <button type="button" class="filter-btn" id="bfx-crypto-filter-btn">
+          <img src="$asset_url/filter.png" />
+          <span>Filter by</span>
+        </button>
       </div>
-      <button type="button">
-        <img src="$asset_url/filter.png" />
-        <span>Filter by</span>
-      </button>
+      <div id="bfx-crypto-filter-popup" class="bfx-crypto-filter-popup">
+        <div class="filter-container">
+          <form id="bfx-crypto-filter-form">
+            <div class="filter-list">
+              <div class="filter-title">Category</div>
+              <div class="filter-content">
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_sports_and_leisure" name="category" value="sports_and_leisure" />
+                  <label for="bfx_filter_sports_and_leisure">Sports and Leisure</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_services" name="category" value="services" />
+                  <label for="bfx_filter_services">Services</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_food_and_drink" name="category" value="food_and_drink" />
+                  <label for="bfx_filter_food_and_drink">Food and Drink</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_fashion" name="category" value="fashion" />
+                  <label for="bfx_filter_fashion">Fashion</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_entertainment" name="category" value="entertainment" />
+                  <label for="bfx_filter_entertainment">Entertainment</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_home_and_garden" name="category" value="home_and_garden" />
+                  <label for="bfx_filter_home_and_garden">Home and Garden</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_electronics" name="category" value="electronics" />
+                  <label for="bfx_filter_electronics">Electronics</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_retail" name="category" value="retail" />
+                  <label for="bfx_filter_retail">Retail</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_auto_and_moto" name="category" value="auto_and_moto" />
+                  <label for="bfx_filter_auto_and_moto">Auto and Moto</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_toys" name="category" value="toys" />
+                  <label for="bfx_filter_toys">Toys</label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_other" name="category" value="other" />
+                  <label for="bfx_filter_other">Other</label>
+                </div>
+              </div>
+            </div>
+            <div class="filter-list">
+              <div class="filter-title">Accepts</div>
+              <div class="filter-content">
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_BTC" name="accepted_cryptos" value="BTC" />
+                  <label for="bfx_filter_BTC">
+                    <img src="$asset_url/BTC.png" width="25" height="22" />
+                    BTC Lightning
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_UST" name="accepted_cryptos" value="UST" />
+                  <label for="bfx_filter_UST">
+                    <img src="$asset_url/UST.png" width="22" height="22" />
+                    USDt
+                  </label>
+                </div>
+                <div class="filter-checkbox">
+                  <input type="checkbox" id="bfx_filter_LVGA" name="accepted_cryptos" value="LVGA" />
+                  <label for="bfx_filter_LVGA">
+                    <img src="$asset_url/LVGA.png" width="22" height="22" />
+                    LVGA
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
+    <div id="bfx-crypto-filter-popup-overlay"></div>
     <div id="bfx-crypto-map"></div>
   </div>
 
@@ -227,6 +311,63 @@ function bfx_crypto_map_handler( $atts ) {
         return marker;
       });
     }
+
+    function filterMarkers() {
+      const searchValue = jQuery('#bfx-crypto-search-input').val().toLowerCase().trim();
+      const formValues = jQuery('#bfx-crypto-filter-form').serializeArray();
+      const categories = formValues
+        .filter(function (item) {
+          return item.name === 'category';
+        })
+        .map(function (item) {
+          return item.value;
+        });
+      const acceptedCryptos = formValues
+        .filter(function (item) {
+          return item.name === 'accepted_cryptos';
+        })
+        .map(function (item) {
+          return item.value;
+        });
+
+      const filteredData = MERCHANT_DATA.filter(function (merchant) {
+        const matchedSearch = !searchValue || searchValue === '' || merchant.title.toLowerCase().includes(searchValue);
+        const hasCategory = categories.length === 0 || categories.some(function (category) {
+          return (merchant.tags || []).includes(category);
+        });
+        const hasAcceptedCryptos = acceptedCryptos.length === 0 || acceptedCryptos.some(function (token) {
+          return (merchant.accepted_cryptos || []).includes(token);
+        });
+        return matchedSearch && hasCategory && hasAcceptedCryptos;
+      });
+
+      renderMarkers(filteredData);
+    }
+
+    function debounce(func, timeout = 300){
+      let timer;
+      return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => { func.apply(this, args); }, timeout);
+      };
+    }
+
+    jQuery('#bfx-crypto-search-input').keyup(debounce(function() {
+      filterMarkers();
+    }, 300));
+
+    jQuery('#bfx-crypto-filter-form .filter-checkbox input')
+      .on('change', filterMarkers);
+
+    jQuery('#bfx-crypto-filter-btn').on('click', function () {
+      jQuery('#bfx-crypto-filter-popup').toggleClass('active');
+      jQuery('#bfx-crypto-filter-popup-overlay').toggleClass('active');
+    });
+
+    jQuery('#bfx-crypto-filter-popup-overlay').on('click', function () {
+      jQuery('#bfx-crypto-filter-popup').removeClass('active');
+      jQuery('#bfx-crypto-filter-popup-overlay').removeClass('active');
+    });
 
     jQuery
       .ajax({ url: '$merchants_data_url' })
