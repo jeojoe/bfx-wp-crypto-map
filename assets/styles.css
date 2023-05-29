@@ -259,7 +259,9 @@
   }
 
   .bfx-crypto-filter .filter-btn {
-    width: 65px;
+    flex-grow: 0;
+    flex-basis: 40px;
+    padding: 0 7px;
   }
 
   .bfx-crypto-filter .filter-btn span, .bfx-crypto-filter .filter-btn .arrow {
