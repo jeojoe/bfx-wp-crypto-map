@@ -9,6 +9,8 @@ Author URI: https://bitfinex.com
 License: GPL2
 */
 
+include_once(plugin_dir_path( __FILE__ ) . './translations.php');
+
 // [bfx_crypto_map width="100%" height="100%" mode="desktop"]
 function bfx_crypto_map_handler( $atts ) {
   $mapped_atts = shortcode_atts( array(
@@ -16,14 +18,19 @@ function bfx_crypto_map_handler( $atts ) {
     'height' => '500px',
     'mobile_width' => '100%',
     'mobile_height' => 'calc(100vh - 100px)',
+    'lang' => 'en',
   ), $atts);
+
 
   $map_w = $mapped_atts['width'];
   $map_h = $mapped_atts['height'];
+  $lang = $mapped_atts['lang'];
   $map_mobile_w = $mapped_atts['mobile_width'];
   $map_mobile_h = $mapped_atts['mobile_height'];
   $merchants_data_url = plugin_dir_url(__FILE__) . 'assets/merchants.json';
   $asset_url = plugin_dir_url(__FILE__) . 'assets';
+
+  $translator = new BfxTranslations($lang);
 
   $html = <<<HTML
   <div class="bfx-crypto-container">
@@ -38,7 +45,7 @@ function bfx_crypto_map_handler( $atts ) {
             <img src="$asset_url/filter.png" />
             <div id="filter-number"></div>
           </div>
-          <span>Filter by</span>
+          <span>{$translator->translate('filter_by')}</span>
           <div class="arrow">
             <img src="$asset_url/arrow-down.png" />
           </div>
@@ -48,56 +55,56 @@ function bfx_crypto_map_handler( $atts ) {
         <div class="filter-container">
           <form id="bfx-crypto-filter-form">
             <div class="filter-list">
-              <div class="filter-title">Category</div>
+              <div class="filter-title">{$translator->translate('category')}</div>
               <div class="filter-content">
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_sports_and_leisure" name="category" value="sports_and_leisure" />
-                  <label for="bfx_filter_sports_and_leisure">Sports and Leisure</label>
+                  <label for="bfx_filter_sports_and_leisure">{$translator->translate('sports_and_leisure')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_services" name="category" value="services" />
-                  <label for="bfx_filter_services">Services</label>
+                  <label for="bfx_filter_services">{$translator->translate('services')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_food_and_drink" name="category" value="food_and_drink" />
-                  <label for="bfx_filter_food_and_drink">Food and Drink</label>
+                  <label for="bfx_filter_food_and_drink">{$translator->translate('food_and_drink')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_fashion" name="category" value="fashion" />
-                  <label for="bfx_filter_fashion">Fashion</label>
+                  <label for="bfx_filter_fashion">{$translator->translate('fashion')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_entertainment" name="category" value="entertainment" />
-                  <label for="bfx_filter_entertainment">Entertainment</label>
+                  <label for="bfx_filter_entertainment">{$translator->translate('entertainment')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_home_and_garden" name="category" value="home_and_garden" />
-                  <label for="bfx_filter_home_and_garden">Home and Garden</label>
+                  <label for="bfx_filter_home_and_garden">{$translator->translate('home_and_garden')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_electronics" name="category" value="electronics" />
-                  <label for="bfx_filter_electronics">Electronics</label>
+                  <label for="bfx_filter_electronics">{$translator->translate('electronics')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_retail" name="category" value="retail" />
-                  <label for="bfx_filter_retail">Retail</label>
+                  <label for="bfx_filter_retail">{$translator->translate('retail')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_auto_and_moto" name="category" value="auto_and_moto" />
-                  <label for="bfx_filter_auto_and_moto">Auto and Moto</label>
+                  <label for="bfx_filter_auto_and_moto">{$translator->translate('auto_and_moto')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_toys" name="category" value="toys" />
-                  <label for="bfx_filter_toys">Toys</label>
+                  <label for="bfx_filter_toys">{$translator->translate('toys')}</label>
                 </div>
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_other" name="category" value="other" />
-                  <label for="bfx_filter_other">Other</label>
+                  <label for="bfx_filter_other">{$translator->translate('other')}</label>
                 </div>
               </div>
             </div>
             <div class="filter-list">
-              <div class="filter-title">Accepts</div>
+              <div class="filter-title">{$translator->translate('accepts')}</div>
               <div class="filter-content">
                 <div class="filter-checkbox">
                   <input type="checkbox" id="bfx_filter_BTC" name="accepted_cryptos" value="BTC" />
@@ -141,7 +148,7 @@ function bfx_crypto_map_handler( $atts ) {
         </div>
       </div>
       <div class="footer">
-        <div class="label">Accepted Tokens</div>
+        <div class="label">{$translator->translate('accepted_tokens')}</div>
         <div class="footer-container">
           <div class="tokens">
           </div>
@@ -261,7 +268,8 @@ function bfx_crypto_map_handler( $atts ) {
         e.target.setIcon(activeMarkerIcon);
 
         const tags = (merchant.tags || []).map(function (tag) {
-          return '<span class="tag">' + tag + '</span>';
+          const tag_name = jQuery('#bfx_filter_' + tag).next().html() || tag;
+          return '<span class="tag">' + tag_name + '</span>';
         }).join('');
         const tokens = (merchant.accepted_cryptos || []).map(function (token) {
           const tokenInfo = tokenMap[token];
