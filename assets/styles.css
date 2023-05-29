@@ -186,6 +186,10 @@
   display: block;
 }
 
+.filter-icon-wrapper {
+  position: relative;
+}
+
 #filter-number {
   display: none;
   position: absolute;
