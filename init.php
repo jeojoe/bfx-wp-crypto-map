@@ -34,7 +34,10 @@ function bfx_crypto_map_handler( $atts ) {
           <input id="bfx-crypto-search-input" type="search" placeholder="Search" />
         </div>
         <button type="button" class="filter-btn" id="bfx-crypto-filter-btn">
-          <img src="$asset_url/filter.png" />
+          <div class="filter-icon-wrapper">
+            <img src="$asset_url/filter.png" />
+            <div id="filter-number"></div>
+          </div>
           <span>Filter by</span>
           <div class="arrow">
             <img src="$asset_url/arrow-down.png" />
@@ -167,7 +170,7 @@ function bfx_crypto_map_handler( $atts ) {
 
   </style>
   <script>
-    var MERCHANT_DATA = [];
+    let MERCHANT_DATA = [];
     const isMobile = document.body.clientWidth < 768;
     const logoPlaceholder = 'https://via.placeholder.com/50x50';
     const tokenMap = {
@@ -349,6 +352,14 @@ function bfx_crypto_map_handler( $atts ) {
         .map(function (item) {
           return item.value;
         });
+
+      const numberOfFilter = categories.length + acceptedCryptos.length;
+
+      if (numberOfFilter > 0) {
+        jQuery('#filter-number').html(numberOfFilter + '').addClass('active');
+      } else {
+        jQuery('#filter-number').html('').removeClass('active');
+      }
 
       const filteredData = MERCHANT_DATA.filter(function (merchant) {
         const matchedSearch = !searchValue || searchValue === '' || merchant.title.toLowerCase().includes(searchValue);

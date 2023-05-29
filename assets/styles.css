@@ -186,6 +186,26 @@
   display: block;
 }
 
+#filter-number {
+  display: none;
+  position: absolute;
+  bottom: -5px;
+  right: -7px;
+  width: 14px;
+  height: 14px;
+  border-radius: 8px;
+  background: #C85263;
+  color: #fff;
+  font-size: 9px;
+  line-height: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#filter-number.active {
+  display: block;
+}
+
 .bfx-crypto-filter .search-container {
   display: flex;
   align-items: center;
