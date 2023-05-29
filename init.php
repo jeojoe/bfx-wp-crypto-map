@@ -215,6 +215,13 @@ function bfx_crypto_map_handler( $atts ) {
       popupAnchor: [1, -20],
     });
 
+    const activeMarkerIcon = L.icon({
+      iconUrl: '$asset_url/active-marker-icon.png',
+      iconSize: [20, 20],
+      iconAnchor: [10, 20],
+      popupAnchor: [1, -20],
+    });
+
     function setPopupContent(e, content) {
       const markerPopup = e.target.getPopup();
 
@@ -248,6 +255,8 @@ function bfx_crypto_map_handler( $atts ) {
       });
 
       if (merchant) {
+        e.target.setIcon(activeMarkerIcon);
+
         const tags = (merchant.tags || []).map(function (tag) {
           return '<span class="tag">' + tag + '</span>';
         }).join('');
@@ -277,7 +286,11 @@ function bfx_crypto_map_handler( $atts ) {
         popupTemplate.querySelector('.tokens').innerHTML = tokens;
         popupTemplate.querySelector('.website').innerHTML = website;
 
-        setPopupContent(e, popupTemplate.innerHTML);
+        const popup = setPopupContent(e, popupTemplate.innerHTML);
+
+        popup.on('remove', function () {
+          e.target.setIcon(markerIcon);
+        });
       }
     }
 
