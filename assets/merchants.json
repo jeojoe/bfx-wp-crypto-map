@@ -3916,7 +3916,7 @@
     "website": "https://www.instagram.com/12.zero.4/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Ristorazione"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "12zero4 Caffè, Ristorant e Winebar",
@@ -3934,7 +3934,7 @@
     "website": "https://8e20.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "8e20 Un'infinità di eventi",
@@ -3972,7 +3972,7 @@
     "website": "https://ambrosini-lugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Ambrosini",
@@ -3990,7 +3990,7 @@
     "website": "http://anticaosteriadelporto.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Ristorante"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "Antica Osteria del Porto",
@@ -4008,7 +4008,7 @@
     "website": "https://it.swiss-electronic-music.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Associazione Swiss Electronic Music",
@@ -4026,7 +4026,7 @@
     "website": "https://www.aubergelugano.ch/?fbclid=IwAR3KIoH1RR0EcrRSYSLiTONfWv0Zm3B0gTLOwvjHXYkns2cxAYk-gkvZGVw",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Bar"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "Auberge",
@@ -4044,7 +4044,7 @@
     "website": "https://www.instagram.com/beautyandcolugano/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Beauty & Co. Bossi 19",
@@ -4062,7 +4062,7 @@
     "website": "https://www.b-positive.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "B-Positive",
@@ -4080,7 +4080,7 @@
     "website": "https://cafelosandesshop.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Ristorazione"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "Café Los Andes",
@@ -4098,7 +4098,7 @@
     "website": "https://www.cct.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Scuole e Formazione"
+      "other"
     ],
     "gocryptoId": null,
     "title": "CCT Formazione Linguistica e Culturale Lugano",
@@ -4116,7 +4116,7 @@
     "website": "https://www.chicco.ch/it.html",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Chicco",
@@ -4134,7 +4134,7 @@
     "website": "https://www.patriciagozlan.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Scuola e Formazione"
+      "other"
     ],
     "gocryptoId": null,
     "title": "Coaching di Patrizia Gozlan",
@@ -4152,7 +4152,7 @@
     "website": "http://www.comedil.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Comedil SA",
@@ -4170,7 +4170,7 @@
     "website": "https://corsisoccorritori.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Scuole e Formazione"
+      "other"
     ],
     "gocryptoId": null,
     "title": "Corsi Soccorritori di Nicole König",
@@ -4188,7 +4188,7 @@
     "website": "https://www.instagram.com/dadixcomics/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Dadix Comics",
@@ -4206,7 +4206,7 @@
     "website": "https://www.dasswiss.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Ediluongo (DASswiss)",
@@ -4224,7 +4224,7 @@
     "website": "https://elisircoiffure.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Elisir Coiffure",
@@ -4242,7 +4242,7 @@
     "website": "https://www.englishworks.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Scuole e Formazione"
+      "other"
     ],
     "gocryptoId": null,
     "title": "English Works SAGL",
@@ -4260,7 +4260,7 @@
     "website": "https://www.7grappoli.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Enotecta 7 Grappoli",
@@ -4280,7 +4280,7 @@
     "website": "https://www.etrebel.it/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Etrebel Lugano",
@@ -4298,7 +4298,7 @@
     "website": "https://www.farmaciacontradadeipatrizi.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Farmacia Contrada dei Patrizi Pregassona",
@@ -4318,7 +4318,7 @@
     "website": "https://www.instagram.com/fiori_e_foglie_lugano/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Fiori e foglie di Tiziana Fontana",
@@ -4336,7 +4336,7 @@
     "website": "https://www.fotogiovetto.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Foto Giovetto",
@@ -4354,7 +4354,7 @@
     "website": "https://www.gastroformazione.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Scuole e Formazione"
+      "other"
     ],
     "gocryptoId": null,
     "title": "GastroFormazione",
@@ -4372,7 +4372,7 @@
     "website": "https://www.hotelzurigo.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Hotel Zurigo Downtown",
@@ -4408,7 +4408,7 @@
     "website": "https://ibooster.io/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Ibooster Lugano",
@@ -4426,7 +4426,7 @@
     "website": "https://www.ifa-suisse.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "IFA",
@@ -4462,7 +4462,7 @@
     "website": "https://www.impronta.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Impronta Herber",
@@ -4480,7 +4480,7 @@
     "website": "https://www.inlingua-lugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Scuole e Formazione"
+      "other"
     ],
     "gocryptoId": null,
     "title": "Inlingua",
@@ -4498,7 +4498,7 @@
     "website": "https://italydress.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Italy Dress",
@@ -4516,7 +4516,7 @@
     "website": "https://www.instagram.com/kreamlugano/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Ristorazione"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "Kream",
@@ -4534,7 +4534,7 @@
     "website": "https://www.kreishop.ch/?_=_",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Krei Shop",
@@ -4552,7 +4552,7 @@
     "website": "https://www.fioreria.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "La Fioreria",
@@ -4570,7 +4570,7 @@
     "website": "https://www.lacliniqueofswitzerland.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "LaCLINIQUE of Switzerland",
@@ -4588,7 +4588,7 @@
     "website": "https://www.laltralingua.ch/home.aspx",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Scuole e Formazione"
+      "other"
     ],
     "gocryptoId": null,
     "title": "laltralingua",
@@ -4606,7 +4606,7 @@
     "website": "https://segnalibro.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Libreria Il Segnalibro",
@@ -4624,7 +4624,7 @@
     "website": "https://voltapagina.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Libreria Voltapagina",
@@ -4642,7 +4642,7 @@
     "website": "https://ideatorio.usi.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Attrazioni"
+      "other"
     ],
     "gocryptoId": null,
     "title": "L'Ideatorio (Università della Svizzera Italiana)",
@@ -4680,7 +4680,7 @@
     "website": "https://www.luxochain.io/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Luxochain SA",
@@ -4698,7 +4698,7 @@
     "website": "https://www.mcdonalds.com/ch/it-ch/location/ticino/lugano/lugano-albertolli/riva-albertolli-1/780119.html",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Ristorazione"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "McDonald's Lugano",
@@ -4718,7 +4718,7 @@
     "website": "https://www.micheledipaolo.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "mdp Michele Di Paolo",
@@ -4736,7 +4736,7 @@
     "website": "https://www.instagram.com/millymetri_creativi/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Millymetri Creativi",
@@ -4754,7 +4754,7 @@
     "website": "https://www.misterbike.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Mister Bike",
@@ -4772,7 +4772,7 @@
     "website": "https://www.salonemetamorphosis.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Salone Metamorphosis",
@@ -4790,7 +4790,7 @@
     "website": "http://www.nadesh-ayurveda.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Nadesh Ayurveda",
@@ -4808,7 +4808,7 @@
     "website": "https://www.ncclugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "NCC Lugano",
@@ -4826,7 +4826,7 @@
     "website": "https://www.newlimousine.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "New Limousine",
@@ -4844,7 +4844,7 @@
     "website": "https://www.otticacottinelli.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Ottica Cottinelli",
@@ -4862,7 +4862,7 @@
     "website": "https://www.patanegrashoplugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Ristorazione"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "Pata Negra",
@@ -4880,7 +4880,7 @@
     "website": "https://www.polypluslab.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Polyplus Lab",
@@ -4898,7 +4898,7 @@
     "website": "http://raw-excellence.ch/it",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Raw Excellence",
@@ -4916,7 +4916,7 @@
     "website": "http://ristoranteorient.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Ristorazione"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "Ristorante Cinese Orient Express",
@@ -4934,7 +4934,7 @@
     "website": "https://www.hclugano.ch/club-41/?fbclid=IwAR10QjPzlzbiHAbBz19Eg8_i3bWwHdmFlysSCRzd-Cigy5AA591iPmRiW3U",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Ristorazione"
+      "food_and_drink"
     ],
     "gocryptoId": null,
     "title": "Ristorante Club '41 - HCL",
@@ -4952,7 +4952,7 @@
     "website": "https://sonego.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Sonego Lugano 16",
@@ -4988,7 +4988,7 @@
     "website": "https://www.gandola.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Studio Gandola",
@@ -5006,7 +5006,7 @@
     "website": "https://laurabondesani.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Team Laura Compagnia della Bellezza",
@@ -5042,7 +5042,7 @@
     "website": "https://tuttogadget.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "TuttoGadget",
@@ -5060,7 +5060,7 @@
     "website": "https://www.phonesolutionslugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "Phone Solutions Lugano",
@@ -5078,7 +5078,7 @@
     "website": "http://www.epilea.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Servizi"
+      "services"
     ],
     "gocryptoId": null,
     "title": "Epilea",
@@ -5096,7 +5096,7 @@
     "website": "https://www.masilugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Eventi e cultura"
+      "entertainment"
     ],
     "gocryptoId": null,
     "title": "MASI",
@@ -5114,7 +5114,7 @@
     "website": "https://www.wega-lugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\r\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "tags": [
-      "Acquisti"
+      "retail"
     ],
     "gocryptoId": null,
     "title": "WEGA 1935",
