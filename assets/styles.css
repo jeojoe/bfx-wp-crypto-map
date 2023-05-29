@@ -208,12 +208,13 @@
   color: rgba(23, 45, 62, 0.5);
   font-size: 14px;
   flex: 1;
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 .bfx-crypto-filter .filter-btn {
   background: rgba(200, 82, 99, 0.06);
   color: rgba(23, 45, 62, 0.5);
+  border: 0;
   border-radius: 6px;
   height: 40px;
   display: flex;

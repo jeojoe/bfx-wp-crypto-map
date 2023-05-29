@@ -168,7 +168,6 @@ function bfx_crypto_map_handler( $atts ) {
   </style>
   <script>
     var MERCHANT_DATA = [];
-    var markers = [];
     const isMobile = document.body.clientWidth < 768;
     const logoPlaceholder = 'https://via.placeholder.com/50x50';
     const tokenMap = {
@@ -206,6 +205,8 @@ function bfx_crypto_map_handler( $atts ) {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       })
       .addTo(map);
+
+    const markerGroup = L.markerClusterGroup();
 
     const markerIcon = L.icon({
       iconUrl: '$asset_url/marker-icon.png',
@@ -281,10 +282,9 @@ function bfx_crypto_map_handler( $atts ) {
     }
 
     function clearMarkers() {
-      markers.forEach(function(marker) {
-        map.removeLayer(marker);
-      });
-      markers = [];
+      if (markerGroup) {
+        markerGroup.clearLayers();
+      }
     }
 
     function renderMarkers(data) {
@@ -296,7 +296,7 @@ function bfx_crypto_map_handler( $atts ) {
         closeButton: false,
       };
 
-      markers = data.map(function (merchant) {
+      const markers = data.map(function (merchant) {
         const marker = L
           .marker(
             [merchant.lat, merchant.lng],
@@ -305,7 +305,6 @@ function bfx_crypto_map_handler( $atts ) {
               icon: markerIcon,
             },
           )
-          .addTo(map)
           .on('click', onMarkerClick);
 
         if (!isMobile) {
@@ -314,6 +313,10 @@ function bfx_crypto_map_handler( $atts ) {
 
         return marker;
       });
+
+      markerGroup.addLayers(markers);
+
+      map.addLayer(markerGroup);
     }
 
     function filterMarkers() {
@@ -405,8 +408,10 @@ function bfx_crypto_map_shortcode_scripts() {
   global $post;
   if ( is_a( $post, 'WP_Post' ) && has_shortcode( $post->post_content, 'bfx_crypto_map') ) {
     wp_enqueue_script('leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', array(), null);
-    wp_enqueue_script('leaflet-marker-cluster', 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js', array(), null);
+    wp_enqueue_script('leaflet-marker-cluster', 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js', array('leaflet'), null);
     wp_enqueue_style( 'leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', array(), null);
+    wp_enqueue_style( 'leaflet-marker-cluster', 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css', array('leaflet'), null);
+    wp_enqueue_style( 'leaflet-marker-cluster-default', 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css', array('leaflet', 'leaflet-marker-cluster'), null);
     wp_enqueue_style( 'leaflet-custom', plugin_dir_url(__FILE__) . 'assets/styles.css', array('leaflet'), null);
   }
 }
