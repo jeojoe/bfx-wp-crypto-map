@@ -179,7 +179,7 @@ function bfx_crypto_map_handler( $atts ) {
   <script>
     let MERCHANT_DATA = [];
     const isMobile = document.body.clientWidth < 768;
-    const logoPlaceholder = 'https://via.placeholder.com/50x50';
+    const logoPlaceholder = '$asset_url/placeholder.png';
     const tokenMap = {
       BTC: {
         name: 'BTC Lightning',
