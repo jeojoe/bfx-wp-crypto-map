@@ -300,7 +300,10 @@ function bfx_crypto_map_handler( $atts ) {
         const popup = setPopupContent(e, popupTemplate.innerHTML);
 
         popup.on('remove', function () {
-          e.target.setIcon(markerIcon);
+          // silly work-around to avoid race-condition made by leaflet marker cluster
+          setTimeout(function () {
+            e.target.setIcon(markerIcon);
+          }, 1000);
         });
       }
     }
