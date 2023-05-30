@@ -290,12 +290,16 @@ function bfx_crypto_map_handler( $atts ) {
           ? '<a href="' + merchant.website + '" target="_blank"><img src="$asset_url/globe.png" /></a>'
           : '';
 
+        const latLng = merchant.lat + ',' + merchant.lng;
+        const direction = '<a href="https://maps.google.com/?q=' + latLng +'" target="_blank"><img src="$asset_url/direction.png" /></a>';
+        const websiteInner = website + direction;
+
         const popupTemplate = document.getElementById('bfx-crypto-popup-template');
         popupTemplate.querySelector('.logo').innerHTML = logo;
         popupTemplate.querySelector('.title').innerHTML = title;
         popupTemplate.querySelector('.description').innerHTML = description;
         popupTemplate.querySelector('.tokens').innerHTML = tokens;
-        popupTemplate.querySelector('.website').innerHTML = website;
+        popupTemplate.querySelector('.website').innerHTML = websiteInner;
 
         const popup = setPopupContent(e, popupTemplate.innerHTML);
 
