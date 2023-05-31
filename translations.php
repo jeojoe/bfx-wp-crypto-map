@@ -28,11 +28,12 @@ class BfxTranslations
   {
     $this->lang = $lang;
     $this->translations = self::$translations[$lang];
+    $this->default_translations = self::$translations['en'];
   }
 
   public function translate($key)
   {
-    return $this->translations[$key] ?? $key;
+    return $this->translations[$key] ?? $this->default_translations[$key] ?? $key;
   }
 }
 
