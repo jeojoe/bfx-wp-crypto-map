@@ -1,0 +1,281 @@
+.bfx-crypto-container {
+  position: relative;
+}
+
+.bfx-marker-popup .header {
+  display: flex;
+  gap: 12px;
+}
+
+.bfx-marker-popup .logo {
+  flex-basis: 44px;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+}
+
+.bfx-marker-popup .title h3 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bfx-marker-popup .description {
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.bfx-marker-popup .footer {
+  margin-top: 15px;
+}
+
+.bfx-marker-popup .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.bfx-marker-popup .label {
+  font-weight: bold;
+}
+
+.bfx-marker-popup .tag {
+  color: #C85263;
+  background: rgba(205, 188, 190, 0.16);
+  border-radius: 6px;
+  padding: 3px 9px;
+}
+
+.bfx-marker-popup .tokens {
+  display: flex;
+  gap: 10px;
+}
+
+.bfx-marker-popup .token {
+  color: #C85263;
+  background: rgba(205, 188, 190, 0.16);
+  border-radius: 10px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bfx-mobile-popup {
+  margin-bottom: 30px;
+}
+
+/* start filter */
+.bfx-crypto-filter {
+  position: absolute;
+  z-index: 450; /* on top of the map */
+  top: 8px;
+  left: 8px;
+  width: 800px;
+}
+
+.bfx-crypto-filter-bar {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  height: 52px;
+  box-sizing: border-box;
+  padding: 6px;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .bfx-crypto-filter, .bfx-crypto-filter-bar {
+    width: 280px;
+  }
+}
+
+.bfx-crypto-filter-bar > * {
+  flex: 1;
+}
+
+.bfx-crypto-filter-popup {
+  position: absolute;
+  background-color: #fff;
+  color: #586871;
+  top: 60px;
+  right: 0;
+  max-height: 400px;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 12px;
+  overflow-y: auto;
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .bfx-crypto-filter-popup {
+    width: 280px;
+  }
+}
+
+.bfx-cryto-filter-popup .filter-title {
+  font-weight: bold;
+}
+
+.bfx-crypto-filter .filter-checkbox input {
+  display: none;
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+}
+
+.bfx-crypto-filter .filter-content .filter-checkbox {
+  border-bottom: 1px solid rgba(65, 102, 188, 0.06);
+  margin-bottom: 14px;
+}
+
+.bfx-crypto-filter .filter-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bfx-crypto-filter .filter-title {
+  font-weight: bold;
+  border-bottom: 1px solid rgba(65, 102, 188, 0.06);
+  margin-bottom: 14px;
+  padding-bottom: 5px;
+}
+
+.bfx-crypto-filter .filter-checkbox label:before {
+  content: "";
+  background: url('./unchecked.png');
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.bfx-crypto-filter .filter-checkbox input:checked + label:before {
+  background: url('./checked.png');
+}
+
+#bfx-crypto-filter-popup {
+  display: none;
+}
+
+#bfx-crypto-filter-popup.active {
+  display: block;
+}
+
+#bfx-crypto-filter-popup-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 449;
+  display: none;
+}
+
+#bfx-crypto-filter-popup-overlay.active {
+  display: block;
+}
+
+.filter-icon-wrapper {
+  position: relative;
+}
+
+#filter-number {
+  display: none;
+  position: absolute;
+  bottom: -5px;
+  right: -7px;
+  width: 14px;
+  height: 14px;
+  border-radius: 8px;
+  background: #C85263;
+  color: #fff;
+  font-size: 9px;
+  line-height: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#filter-number.active {
+  display: block;
+}
+
+.bfx-crypto-filter .search-container {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  box-sizing: border-box;
+  gap: 5px;
+  background: rgba(200, 82, 99, 0.06);
+  border-radius: 6px;
+  height: 40px;
+}
+
+.bfx-crypto-filter .search-container img {
+  height: 13px;
+  width: 14px;
+}
+
+.bfx-crypto-filter .search-container input {
+  border: 0;
+  background-color: transparent;
+  color: rgba(23, 45, 62, 0.5);
+  font-size: 14px;
+  flex: 1;
+  padding: 5px 10px;
+}
+
+.bfx-crypto-filter .filter-btn {
+  background: rgba(200, 82, 99, 0.06);
+  color: rgba(23, 45, 62, 0.5);
+  border: 0;
+  border-radius: 6px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.bfx-crypto-filter .filter-btn .arrow {
+  flex: 1;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .bfx-crypto-filter .search-container {
+    width: 200px;
+  }
+
+  .bfx-crypto-filter .filter-btn {
+    flex-grow: 0;
+    flex-basis: 40px;
+    padding: 0 7px;
+  }
+
+  .bfx-crypto-filter .filter-btn span, .bfx-crypto-filter .filter-btn .arrow {
+    display: none;
+  }
+}
+/* end filter */
+
+/* start leaflet reset */
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+}
+/* end leaflet reset */
