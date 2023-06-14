@@ -207,6 +207,8 @@ function bfx_crypto_map_handler( $atts ) {
       })
       .setView([46.005314, 8.953802], 17);
 
+    map.attributionControl.setPrefix('<a href="https://leafletjs.com" title="A JavaScript library for interactive maps">Leaflet</a>');
+
     L.control.zoom({ position: 'topright' }).addTo(map);
 
     const tiles = L
