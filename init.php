@@ -38,7 +38,7 @@ function bfx_crypto_map_handler( $atts ) {
       <div class="bfx-crypto-filter-bar">
         <div class="search-container">
           <img src="$asset_url/search.png" width="14" height="13" />
-          <input id="bfx-crypto-search-input" type="search" placeholder="Search" />
+          <input id="bfx-crypto-search-input" type="search" placeholder="{$translator->translate('search')}" />
         </div>
         <button type="button" class="filter-btn" id="bfx-crypto-filter-btn">
           <div class="filter-icon-wrapper">
