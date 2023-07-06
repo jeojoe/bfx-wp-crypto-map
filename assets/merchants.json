@@ -105,7 +105,7 @@
     "id": 5
   },
   {
-    "address": "Viale Castagnola 4 - 6900 Lugano",
+    "address": "Viale Castagnola 6 - 6900 Lugano",
     "phone": "",
     "logo_url": "https://s3.eu-central-1.amazonaws.com/public.elipay.com/live-3514d179aac2/source/images/52cf983d1ab844d88df6f791ff1f5775.png",
     "website": "https://allidobar.com",
@@ -113,8 +113,8 @@
     "gocryptoId": 2788,
     "title": "Al Lido Ristorante Bar Beach Lounge",
     "vat": "CHE-109.539.777",
-    "lat": 46.005568,
-    "lng": 8.962003,
+    "lat": 46.00553142606538,
+    "lng": 8.964034491737191,
     "tags": [
       "food_and_drink"
     ],
@@ -124,6 +124,27 @@
       "LVGA"
     ],
     "id": 6
+  },
+  {
+    "address": "Viale Castagnola 4 - 6900 Lugano",
+    "phone": "",
+    "logo_url": "",
+    "website": "https://www.allacoperta.ch/",
+    "description": "",
+    "gocryptoId": null,
+    "title": "Alla Coperta Snack Bar",
+    "vat": "CHE-109.539.777",
+    "lat": 46.005575348666035,
+    "lng": 8.962013516621884,
+    "tags": [
+      "food_and_drink"
+    ],
+    "accepted_cryptos": [
+      "BTC",
+      "UST",
+      "LVGA"
+    ],
+    "id": 7
   },
   {
     "address": "Via La Santa 1 - 6962 Viganello",
@@ -144,7 +165,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 7
+    "id": 8
   },
   {
     "address": "Via Carlo Maderno 23 - 6900 Lugano",
@@ -165,7 +186,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 8
+    "id": 9
   },
   {
     "address": "Via Pelli 3 - 6900 Lugano",
@@ -186,7 +207,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 9
+    "id": 10
   },
   {
     "address": "Via Pian Scairolo 23 - 6912 Pazzallo",
@@ -207,7 +228,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 10
+    "id": 11
   },
   {
     "address": "Via Luigi Lavizzari 10 - 6900 Lugano",
@@ -228,7 +249,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 11
+    "id": 12
   },
   {
     "address": "Via Nassa 29 - 6900 Lugano",
@@ -249,7 +270,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 12
+    "id": 13
   },
   {
     "address": "Crocicchio Cortogna 1 - 6900 Lugano",
@@ -260,8 +281,8 @@
     "gocryptoId": 2523,
     "title": "Argentino Bistrot & Pizza",
     "vat": "CHE-101.452.150",
-    "lat": 46.004791,
-    "lng": 8.94923,
+    "lat": 46.00410077573654,
+    "lng": 8.951570398046295,
     "tags": [
       "food_and_drink"
     ],
@@ -270,7 +291,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 13
+    "id": 14
   },
   {
     "address": "Via Ferruccio Pelli 9 - 6900 Lugano",
@@ -291,7 +312,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 14
+    "id": 15
   },
   {
     "address": "Via Luigi Canonica 4 - 6900 Lugano",
@@ -312,7 +333,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 15
+    "id": 16
   },
   {
     "address": "Via Ceresio 30 - 6963 Pregassona",
@@ -333,7 +354,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 16
+    "id": 17
   },
   {
     "address": "Via Beltramina 8 - 6900 Lugano",
@@ -354,7 +375,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 17
+    "id": 18
   },
   {
     "address": "Via G.B. Pioda 10 - 6900 Lugano",
@@ -376,7 +397,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 18
+    "id": 19
   },
   {
     "address": "Via G.B. Pioda 10 - 6900 Lugano",
@@ -398,7 +419,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 19
+    "id": 20
   },
   {
     "address": "Via Antonio Ciseri 2 - 6900 Lugano",
@@ -419,7 +440,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 20
+    "id": 21
   },
   {
     "address": "Via Crocicchio Cortogna 2 - 6900 Lugano",
@@ -440,7 +461,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 21
+    "id": 22
   },
   {
     "address": "Via Mons. Angelo Jelmini 4 - 6900 Lugano",
@@ -461,7 +482,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 22
+    "id": 23
   },
   {
     "address": "Piazza Manzoni 2B - 6900 Lugano",
@@ -482,7 +503,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 23
+    "id": 24
   },
   {
     "address": "Piazza Molino Nuovo 5 - 6900 Lugano",
@@ -503,7 +524,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 24
+    "id": 25
   },
   {
     "address": "Piazza 5 Vie 2 - 6932 Breganzona",
@@ -524,7 +545,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 25
+    "id": 26
   },
   {
     "address": "Via Pretorio 7 - 6900 Lugano",
@@ -545,7 +566,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 26
+    "id": 27
   },
   {
     "address": "Piazza Bernardino Luini 2 - 6900 Lugano",
@@ -567,7 +588,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 27
+    "id": 28
   },
   {
     "address": "Corso Enrico Pestalozzi 10 - 6900 Lugano",
@@ -588,7 +609,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 28
+    "id": 29
   },
   {
     "address": "Via La Santa 11 - 6962 Viganello",
@@ -609,7 +630,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 29
+    "id": 30
   },
   {
     "address": "Via Serafino Balestra 4 - 6900 Lugano",
@@ -630,7 +651,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 30
+    "id": 31
   },
   {
     "address": "Piazzetta San Rocco 2 - 6900 Lugano",
@@ -651,7 +672,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 31
+    "id": 32
   },
   {
     "address": "Piazza Indipendenza 1 - 6900 Lugano",
@@ -672,7 +693,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 32
+    "id": 33
   },
   {
     "address": "Piazza Cioccaro 7 - 6900 Lugano",
@@ -693,7 +714,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 33
+    "id": 34
   },
   {
     "address": "Riva Albertolli 5 - 6900 Lugano",
@@ -714,7 +735,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 34
+    "id": 35
   },
   {
     "address": "Via Trevano 72 - 6900 Lugano",
@@ -735,7 +756,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 35
+    "id": 36
   },
   {
     "address": "Viale Cattaneo 27 - 6900 Lugano",
@@ -756,7 +777,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 36
+    "id": 37
   },
   {
     "address": "Via Maghetti 10 - 6900 Lugano",
@@ -777,7 +798,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 37
+    "id": 38
   },
   {
     "address": "Corso Elvezia 15 - 6900 Lugano",
@@ -798,7 +819,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 38
+    "id": 39
   },
   {
     "address": "Via Giuseppe Motta 12 - 6900 Lugano",
@@ -819,7 +840,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 39
+    "id": 40
   },
   {
     "address": "Via S. Gottardo 77 - 6900 Massagno",
@@ -841,7 +862,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 40
+    "id": 41
   },
   {
     "address": "Via Carlo Maderno 24 - 6900 Lugano",
@@ -862,7 +883,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 41
+    "id": 42
   },
   {
     "address": "Corso Pestalozzi 3 - 6900 Lugano",
@@ -883,7 +904,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 42
+    "id": 43
   },
   {
     "address": "Via Arbostra 2 - 6963 Pregassona",
@@ -904,7 +925,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 43
+    "id": 44
   },
   {
     "address": "Via Gaggini da Bissone 9 - 6900 Lugano",
@@ -925,7 +946,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 44
+    "id": 45
   },
   {
     "address": "Via centro scolastico 5 - 6965 Cadro",
@@ -946,7 +967,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 45
+    "id": 46
   },
   {
     "address": "Piazza Riforma 12 - 6900 Lugano",
@@ -967,7 +988,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 46
+    "id": 47
   },
   {
     "address": "Via Dassone 4 - 6965 Lugano",
@@ -988,7 +1009,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 47
+    "id": 48
   },
   {
     "address": "Via Sóra 10 - 6968 Sonvico Lugano",
@@ -1009,7 +1030,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 48
+    "id": 49
   },
   {
     "address": "Via Cattedrale 8 - 6900 Lugano",
@@ -1030,7 +1051,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 49
+    "id": 50
   },
   {
     "address": "Via Serafino Balestra 31 - 6900 Lugano",
@@ -1051,7 +1072,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 50
+    "id": 51
   },
   {
     "address": "Corso Elvezia 13 - 6900 Lugano",
@@ -1072,7 +1093,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 51
+    "id": 52
   },
   {
     "address": "Via Antonio Riva 3A - 6900 Lugano",
@@ -1093,7 +1114,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 52
+    "id": 53
   },
   {
     "address": "Via Nassa 68 - 6900 Lugano",
@@ -1114,7 +1135,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 53
+    "id": 54
   },
   {
     "address": "Piazza Indipendenza 1 - 6900 Lugano",
@@ -1135,7 +1156,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 54
+    "id": 55
   },
   {
     "address": "Via Trevano 1 - 6900 Lugano",
@@ -1156,7 +1177,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 55
+    "id": 56
   },
   {
     "address": "Via Ginevra 5 - 6900 Lugano",
@@ -1177,7 +1198,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 56
+    "id": 57
   },
   {
     "address": "Via Bertaccio 1 - 6900 Lugano",
@@ -1198,7 +1219,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 57
+    "id": 58
   },
   {
     "address": "Viale Franscini 23 - 6900 Lugano",
@@ -1219,7 +1240,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 58
+    "id": 59
   },
   {
     "address": "Via Pessina 14 a - 6900 Lugano",
@@ -1240,7 +1261,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 59
+    "id": 60
   },
   {
     "address": "Corso Pestalozzi 10 - 6900 Lugano",
@@ -1263,7 +1284,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 60
+    "id": 61
   },
   {
     "address": "Via Balestra 22B - 6900 Lugano",
@@ -1284,7 +1305,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 61
+    "id": 62
   },
   {
     "address": "Via Dogana Vecchia 2 - 6900 Lugano",
@@ -1305,7 +1326,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 62
+    "id": 63
   },
   {
     "address": "Via Canova 16 - 6900 Lugano",
@@ -1326,7 +1347,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 63
+    "id": 64
   },
   {
     "address": "Via Nassa 21 - 6900 Lugano",
@@ -1347,7 +1368,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 64
+    "id": 65
   },
   {
     "address": "Via Canova 7 - 6900 Lugano",
@@ -1368,7 +1389,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 65
+    "id": 66
   },
   {
     "address": "Quartiere Maghetti 10 - 6900 Lugano",
@@ -1389,7 +1410,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 66
+    "id": 67
   },
   {
     "address": "Via Codeborgo 1 - 6500 Bellinzona",
@@ -1409,7 +1430,7 @@
       "BTC",
       "UST"
     ],
-    "id": 67
+    "id": 68
   },
   {
     "address": "Via Sorengo 2 - 6900 Lugano",
@@ -1430,7 +1451,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 68
+    "id": 69
   },
   {
     "address": "Via Giuseppe Curti 17 - 6900 Lugano",
@@ -1451,7 +1472,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 69
+    "id": 70
   },
   {
     "address": "Piazza Cioccaro 1 - 6900 Lugano",
@@ -1472,7 +1493,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 70
+    "id": 71
   },
   {
     "address": "Via Nassa 7 - 6900 Lugano",
@@ -1493,7 +1514,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 71
+    "id": 72
   },
   {
     "address": "Via Pessina 20 - 6900 Lugano",
@@ -1514,7 +1535,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 72
+    "id": 73
   },
   {
     "address": "Viale Carlo Cattaneo 1 - 6900 Lugano",
@@ -1535,7 +1556,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 73
+    "id": 74
   },
   {
     "address": "Via Vegezzi 5 - 6900 Lugano",
@@ -1556,7 +1577,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 74
+    "id": 75
   },
   {
     "address": "Via Pessina 6 - 6900 Lugano",
@@ -1577,7 +1598,28 @@
       "UST",
       "LVGA"
     ],
-    "id": 75
+    "id": 76
+  },
+  {
+    "address": "Via Pessina 13 - 6900 Lugano",
+    "phone": "",
+    "logo_url": "",
+    "website": "",
+    "description": "",
+    "gocryptoId": null,
+    "title": "Guess",
+    "vat": "CHE-113.255.366",
+    "lat": 46.00421087108794,
+    "lng": 8.950298126881528,
+    "tags": [
+      "fashion"
+    ],
+    "accepted_cryptos": [
+      "BTC",
+      "UST",
+      "LVGA"
+    ],
+    "id": 77
   },
   {
     "address": "Piazza Molino Nuovo 15 - 6900 Lugano",
@@ -1598,7 +1640,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 76
+    "id": 78
   },
   {
     "address": "Via al Forte 10 - 6900 Lugano",
@@ -1619,7 +1661,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 77
+    "id": 79
   },
   {
     "address": "Piazza Indipendenza 9 - 6900 Lugano",
@@ -1640,7 +1682,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 78
+    "id": 80
   },
   {
     "address": "Corso Pestalozzi 13 - 6900 Lugano",
@@ -1661,7 +1703,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 79
+    "id": 81
   },
   {
     "address": "Via Lucchini 1 - 6900 Lugano",
@@ -1682,7 +1724,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 80
+    "id": 82
   },
   {
     "address": "Via Ugo Besso 57 - 6900 Lugano",
@@ -1703,7 +1745,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 81
+    "id": 83
   },
   {
     "address": "Via Nassa 62 - 6900 Lugano",
@@ -1725,7 +1767,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 82
+    "id": 84
   },
   {
     "address": "Via Nassa 46 - 6900 Lugano",
@@ -1746,7 +1788,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 83
+    "id": 85
   },
   {
     "address": "Via della Posta 2 - 6900 Lugano",
@@ -1767,7 +1809,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 84
+    "id": 86
   },
   {
     "address": "Via Peri 15 - 6900 Lugano",
@@ -1788,7 +1830,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 86
+    "id": 87
   },
   {
     "address": "Via Nassa 52 - 6900 Lugano",
@@ -1810,7 +1852,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 87
+    "id": 88
   },
   {
     "address": "Via Cantonale 1A - 6900 Lugano",
@@ -1830,7 +1872,7 @@
       "BTC",
       "UST"
     ],
-    "id": 88
+    "id": 89
   },
   {
     "address": "Via della Posta 4 - 6900 Lugano",
@@ -3195,7 +3237,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 155
+    "id": 154
   },
   {
     "address": "Via Castagnola 21/A - 6900 Lugano",
@@ -3216,7 +3258,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 156
+    "id": 155
   },
   {
     "address": "Via Soave 5A - 6900 Lugano",
@@ -3237,7 +3279,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 157
+    "id": 156
   },
   {
     "address": "Piazza della Riforma 9 - 6900 Lugano",
@@ -3258,7 +3300,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 158
+    "id": 157
   },
   {
     "address": "Via Serafino Balestra 39a - 6900 Lugano",
@@ -3279,7 +3321,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 159
+    "id": 158
   },
   {
     "address": "Piazza Riforma 12 - 6900 Lugano",
@@ -3300,7 +3342,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 160
+    "id": 159
   },
   {
     "address": "Via Nassa 36/38 - 6900 Lugano",
@@ -3319,7 +3361,7 @@
       "UST",
       "LVGA"
     ],
-    "id": null
+    "id": 160
   },
   {
     "address": "Via degli Albrizzi 3 - 6900 Lugano",
@@ -4086,25 +4128,6 @@
     "id": 197
   },
   {
-    "address": "Via Senago 23 - 6915 Lugano-Pambio-Noranco",
-    "phone": "+41 91 980 92 77",
-    "logo_url": "",
-    "website": "https://www.b-positive.ch/",
-    "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
-    "gocryptoId": null,
-    "title": "B-Positive",
-    "vat": "CHE-195.251.848",
-    "lat": 45.9827193,
-    "lng": 8.9306034,
-    "tags": [
-      "services"
-    ],
-    "accepted_cryptos": [
-      "LVGA"
-    ],
-    "id": 198
-  },
-  {
     "address": "Via Balestra 31/33 - 6900 Lugano",
     "phone": "+41 78 678 11 19",
     "logo_url": "",
@@ -4121,7 +4144,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 199
+    "id": 198
   },
   {
     "address": "Viale Cassarate 27 - 6900 Lugano",
@@ -4140,7 +4163,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 200
+    "id": 199
   },
   {
     "address": "Via al Forte 2 - 6900 Lugano",
@@ -4159,7 +4182,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 201
+    "id": 200
   },
   {
     "address": "Ra Bressanèla 1C -6968  Sonvico",
@@ -4178,7 +4201,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 202
+    "id": 201
   },
   {
     "address": "Centro Pian Scari - 6916 Grancia",
@@ -4197,7 +4220,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 203
+    "id": 202
   },
   {
     "address": "Via Balestra 39 A - 6900 Lugano",
@@ -4216,7 +4239,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 204
+    "id": 203
   },
   {
     "address": "Via Peri 6 - 6900 Lugano",
@@ -4235,7 +4258,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 205
+    "id": 204
   },
   {
     "address": "Via Sorengo 18 - 6900 Lugano",
@@ -4254,7 +4277,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 206
+    "id": 205
   },
   {
     "address": "Viale Stefano Franscini 38 - 6900 Lugano",
@@ -4273,7 +4296,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 207
+    "id": 206
   },
   {
     "address": "Via Borromini3 - 6900 Lugano",
@@ -4292,7 +4315,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 208
+    "id": 207
   },
   {
     "address": "Piazza Dante 8 - 6900 Lugano",
@@ -4311,7 +4334,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 210
+    "id": 208
   },
   {
     "address": "Via Ceresio 40 . 6963 Pregassona",
@@ -4330,7 +4353,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 211
+    "id": 209
   },
   {
     "address": "Via Trevano 1 - 6900 Lugano",
@@ -4349,7 +4372,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": null
+    "id": 210
   },
   {
     "address": "Via Pazzalino 17 - 6962 Viganello",
@@ -4368,7 +4391,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": null
+    "id": 211
   },
   {
     "address": "Via Balestra 4 - 6900 Lugano",
@@ -4580,25 +4603,6 @@
     "id": 222
   },
   {
-    "address": "Piazza Manzoni 2B - 6900 Lugano",
-    "phone": "+41 91 222 59 15",
-    "logo_url": "",
-    "website": "https://www.instagram.com/kreamlugano/",
-    "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
-    "gocryptoId": null,
-    "title": "Kream",
-    "vat": "CHE-236.503.363",
-    "lat": 46.0038517,
-    "lng": 8.9518118,
-    "tags": [
-      "food_and_drink"
-    ],
-    "accepted_cryptos": [
-      "LVGA"
-    ],
-    "id": 223
-  },
-  {
     "address": "Viale Giovanni Maraini 15 - 6963 Pregassona",
     "phone": "+41 76 324 67 73",
     "logo_url": "",
@@ -4615,7 +4619,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 224
+    "id": 223
   },
   {
     "address": "Via Maggio 33 - 6900 Lugano",
@@ -4634,7 +4638,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 225
+    "id": 224
   },
   {
     "address": "Piazza Dante 7 - 6900 Lugano",
@@ -4653,7 +4657,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 226
+    "id": 225
   },
   {
     "address": "Via Pioda 4 - 6900 Lugano",
@@ -4672,7 +4676,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 227
+    "id": 226
   },
   {
     "address": "Via Pioda 5 - 6900 Lugano",
@@ -4683,15 +4687,15 @@
     "gocryptoId": null,
     "title": "Libreria Il Segnalibro",
     "vat": "CHE-109.752.035",
-    "lat": 45.8389942,
-    "lng": 9.022964199999999,
+    "lat": 46.006533,
+    "lng": 8.953691,
     "tags": [
       "retail"
     ],
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 228
+    "id": 227
   },
   {
     "address": "Via Canova 16 - 6900 Lugano",
@@ -4710,7 +4714,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 229
+    "id": 228
   },
   {
     "address": "Piazza del Municipio - 6965 Cadro",
@@ -4729,7 +4733,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 230
+    "id": 229
   },
   {
     "address": "Piazza Riforma 1 - 6900 Lugano",
@@ -4750,7 +4754,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 231
+    "id": 230
   },
   {
     "address": "Via Ferruccio Pelli 10 - 6900 Lugano",
@@ -4769,7 +4773,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 232
+    "id": 231
   },
   {
     "address": "Via alla Sguancia 9 - 6915 Pambio Noranco",
@@ -4780,8 +4784,8 @@
     "gocryptoId": null,
     "title": "McDonald's Pambio-Noranco",
     "vat": "CHE-114.042.092",
-    "lat": 46.0038371,
-    "lng": 8.9538737,
+    "lat": 45.98539545500998,
+    "lng": 8.936764455716077,
     "tags": [
       "food_and_drink"
     ],
@@ -4790,7 +4794,7 @@
       "UST",
       "LVGA"
     ],
-    "id": 233
+    "id": 232
   },
   {
     "address": "Via Pioda 9 - 6900 Lugano",
@@ -4809,7 +4813,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 234
+    "id": 233
   },
   {
     "address": "Via Carlo Maderno 1 - 6900 Lugano",
@@ -4828,7 +4832,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 235
+    "id": 234
   },
   {
     "address": "Piazza Molino Nuovo 6 - 6900 Lugano",
@@ -4847,7 +4851,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 236
+    "id": 235
   },
   {
     "address": "Via Frasca 10 - 6900 Lugano",
@@ -4866,7 +4870,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 237
+    "id": 236
   },
   {
     "address": "Via Pradello 23 - 6932 Breganzona",
@@ -4885,7 +4889,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 238
+    "id": 237
   },
   {
     "address": "Strada di Pregassona 43C - 6963 Lugano-Pregassona",
@@ -4904,7 +4908,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 239
+    "id": 238
   },
   {
     "address": "Via Carona 62 - 6912 Pazzallo",
@@ -4923,7 +4927,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 240
+    "id": 239
   },
   {
     "address": "Via Pessina 14 - 6900 Lugano",
@@ -4942,26 +4946,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 241
-  },
-  {
-    "address": "Viale Carlo Cattaneo 15 - 6900 Lugano",
-    "phone": "+41 78 209 22 74",
-    "logo_url": "",
-    "website": "https://www.patanegrashoplugano.ch/",
-    "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
-    "gocryptoId": null,
-    "title": "Pata Negra",
-    "vat": "CHE-172.732.999",
-    "lat": 46.00588,
-    "lng": 8.9583815,
-    "tags": [
-      "food_and_drink"
-    ],
-    "accepted_cryptos": [
-      "LVGA"
-    ],
-    "id": 242
+    "id": 240
   },
   {
     "address": "Via Clemente Maraini 21 - 6900 Lugano",
@@ -4980,7 +4965,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 243
+    "id": 241
   },
   {
     "address": "Via delle Scuole 6 - 6900 Lugano",
@@ -4999,7 +4984,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 244
+    "id": 242
   },
   {
     "address": "Corso Elvezia 22 - 6900 Lugano",
@@ -5018,7 +5003,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 245
+    "id": 243
   },
   {
     "address": "Via al Chioso 2 - 6900 Lugano",
@@ -5037,7 +5022,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 246
+    "id": 244
   },
   {
     "address": "Via Peri 16 - 6900 Lugano",
@@ -5056,7 +5041,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 247
+    "id": 245
   },
   {
     "address": "Via Trevano 100 - 6900 Lugano",
@@ -5075,7 +5060,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 248
+    "id": 246
   },
   {
     "address": "Via Peri 18 - 6900 Lugano",
@@ -5094,7 +5079,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 249
+    "id": 247
   },
   {
     "address": "Via Cattedrale 4 - 6900 Lugano",
@@ -5113,7 +5098,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 250
+    "id": 248
   },
   {
     "address": "Via dei Casagrande 49 - 6932 Breganzona",
@@ -5132,7 +5117,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 251
+    "id": 249
   },
   {
     "address": "Via Ferruccio Pelli 9 - 6900 Lugano",
@@ -5151,7 +5136,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 252
+    "id": 250
   },
   {
     "address": "Salita Chiattone 10 - 6900 Lugano",
@@ -5170,7 +5155,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 253
+    "id": 251
   },
   {
     "address": "Via Cattori 3 - 6900 Paradiso",
@@ -5189,7 +5174,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 254
+    "id": 252
   },
   {
     "address": "Via Nassa 21 - 6900 Lugano",
@@ -5208,7 +5193,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 256
+    "id": 253
   },
   {
     "address": "Via Luigi Canonica 5 - 6900 Lugano",
@@ -5217,7 +5202,7 @@
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": null,
-    "title": "Bauty Secret",
+    "title": "Beauty Secret",
     "vat": "CHE-204.747.783",
     "lat": 46.0068366,
     "lng": 8.9567497,
@@ -5227,7 +5212,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 258
+    "id": 254
   },
   {
     "address": "Via San Martino 16 - 6850 Mendrisio",
@@ -5246,7 +5231,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 260
+    "id": 255
   },
   {
     "address": "Viale Castagnola 6 - 6900 Lugano",
@@ -5265,7 +5250,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 262
+    "id": 256
   },
   {
     "address": "Viale Castagnola 4 - 6900 Lugano",
@@ -5284,7 +5269,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 264
+    "id": 257
   },
   {
     "address": "Via Probello 3 A - 6963 Pregassona",
@@ -5303,7 +5288,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 266
+    "id": 258
   },
   {
     "address": "Via Chiosso 8 - 6948 Porza",
@@ -5322,7 +5307,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 268
+    "id": 259
   },
   {
     "address": "Via Cattedrale 8 - 6900 Lugano",
@@ -5341,7 +5326,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 270
+    "id": 260
   },
   {
     "address": "Via Crivelli Torricelli 15 - 6900 Lugano",
@@ -5360,7 +5345,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 272
+    "id": 261
   },
   {
     "address": "Via Maraini 15 - 6963 Pregassona ",
@@ -5379,7 +5364,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 274
+    "id": 262
   },
   {
     "address": "Via Zurigo 14 - 6900 Lugano",
@@ -5398,7 +5383,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 276
+    "id": 263
   },
   {
     "address": "Via Trevano 3 - 6900 Lugano",
@@ -5417,26 +5402,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 278
-  },
-  {
-    "address": "Via Balestra 39 A - 6900 Lugano",
-    "phone": "41 78 213 11 33",
-    "logo_url": "",
-    "website": "https://corsisoccorritori.ch/",
-    "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
-    "gocryptoId": null,
-    "title": "Corsi Soccorritori di Nicole König",
-    "vat": "CHE-269.675.924",
-    "lat": 46.0079775,
-    "lng": 8.959615900000001,
-    "tags": [
-      "other"
-    ],
-    "accepted_cryptos": [
-      "LVGA"
-    ],
-    "id": 280
+    "id": 264
   },
   {
     "address": "Via Foce 1 - 6900 Lugano ",
@@ -5455,7 +5421,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 282
+    "id": 265
   },
   {
     "address": "Via Foce 1 - 6900 Lugano ",
@@ -5474,7 +5440,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 284
+    "id": 266
   },
   {
     "address": "Via Industria 8 . 6963 Pregassona",
@@ -5493,7 +5459,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 286
+    "id": 267
   },
   {
     "address": "Via Bossi 6 - 6900 Lugano",
@@ -5512,7 +5478,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 288
+    "id": 268
   },
   {
     "address": "Riva Antonio Caccia 5 - 6900 Lugano",
@@ -5531,7 +5497,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 290
+    "id": 269
   },
   {
     "address": "Sentiero di Gandria 12 - 6976 Gandria",
@@ -5550,7 +5516,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 292
+    "id": 270
   },
   {
     "address": "Via Foce 1 - 6900 Lugano",
@@ -5569,7 +5535,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 294
+    "id": 271
   },
   {
     "address": "Quartiere Maghetti - 6900 Lugano",
@@ -5588,7 +5554,7 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 296
+    "id": 272
   },
   {
     "address": "Via Santa Marta 6 - Carona",
@@ -5607,6 +5573,6 @@
     "accepted_cryptos": [
       "LVGA"
     ],
-    "id": 298
+    "id": 273
   }
 ]

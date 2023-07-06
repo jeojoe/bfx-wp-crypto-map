@@ -38,7 +38,7 @@ function bfx_crypto_map_handler( $atts ) {
       <div class="bfx-crypto-filter-bar">
         <div class="search-container">
           <img src="$asset_url/search.png" width="14" height="13" />
-          <input id="bfx-crypto-search-input" type="search" placeholder="Search" />
+          <input id="bfx-crypto-search-input" type="search" placeholder="{$translator->translate('search')}" />
         </div>
         <button type="button" class="filter-btn" id="bfx-crypto-filter-btn">
           <div class="filter-icon-wrapper">
@@ -206,6 +206,8 @@ function bfx_crypto_map_handler( $atts ) {
         zoomControl: false,
       })
       .setView([46.005314, 8.953802], 17);
+
+    map.attributionControl.setPrefix('<a href="https://leafletjs.com" title="A JavaScript library for interactive maps">Leaflet</a>');
 
     L.control.zoom({ position: 'topright' }).addTo(map);
 

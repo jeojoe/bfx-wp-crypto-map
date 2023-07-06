@@ -5,6 +5,7 @@ class BfxTranslations
   public static $translations = [
     'en' => [
       'filter_by' => 'Filter by',
+      'search' => 'Search',
       'category' => 'Category',
       'sports_and_leisure' => 'Sports and Leisure',
       'services' => 'Services',
@@ -19,9 +20,25 @@ class BfxTranslations
       'other' => 'Other',
       'accepts' => 'Accepts',
       'accepted_tokens' => 'Accepted Tokens'
-
     ],
-    'it' => [],
+    'it' => [
+      'filter_by' => 'Filtri',
+      'search' => 'Cerca',
+      'category' => 'Categoria',
+      'sports_and_leisure' => 'Sport e tempo libero',
+      'services' => 'Servizi',
+      'food_and_drink' => 'Cibo e bevande',
+      'fashion' => 'Moda',
+      'entertainment' => 'Divertimento',
+      'home_and_garden' => 'Casa e giardino',
+      'electronics' => 'Elettronica',
+      'retail' => 'Commerci',
+      'auto_and_moto' => 'Auto e moto',
+      'toys' => 'Giocattoli e prodotti per bambini',
+      'other' => 'Altro',
+      'accepts' => 'Accetta',
+      'accepted_tokens' => 'Token accettati'
+    ],
   ];
 
   public function __construct($lang)
