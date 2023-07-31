@@ -20,7 +20,7 @@ class BfxTranslations
       'other' => 'Other',
       'accepts' => 'Accepts',
       'accepted_tokens' => 'Accepted Tokens',
-      "clear_filters" => "Clear Filters"
+      'clear_filters' => 'Clear Filters'
     ],
     'it' => [
       'filter_by' => 'Filtri',
