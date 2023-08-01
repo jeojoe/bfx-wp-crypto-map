@@ -229,16 +229,16 @@ function bfx_crypto_map_handler( $atts ) {
     const markerGroup = L.markerClusterGroup();
 
     const markerIcon = L.icon({
-      iconUrl: '$asset_url/marker-icon.png',
-      iconSize: [20, 20],
-      iconAnchor: [10, 20],
+      iconUrl: '$asset_url/marker-icon-inactive.png',
+      iconSize: [21, 27],
+      iconAnchor: [10, 27],
       popupAnchor: [1, -20],
     });
 
     const activeMarkerIcon = L.icon({
-      iconUrl: '$asset_url/active-marker-icon.png',
-      iconSize: [20, 20],
-      iconAnchor: [10, 20],
+      iconUrl: '$asset_url/marker-icon-active.png',
+      iconSize: [21, 27],
+      iconAnchor: [10, 27],
       popupAnchor: [1, -20],
     });
 

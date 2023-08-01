@@ -308,3 +308,33 @@
   margin: 0;
 }
 /* end leaflet reset */
+
+/* start customize leaflet marker cluster */
+.marker-cluster-small {
+	background-color: rgba(200, 82, 99, 0.3);
+}
+
+.marker-cluster-small div {
+	background-color: rgba(200, 82, 99, 0.4);
+}
+
+.marker-cluster-medium {
+	background-color: rgba(200, 82, 99, 0.3);
+}
+
+.marker-cluster-medium div {
+	background-color: rgba(200, 82, 99, 0.6);
+}
+
+.marker-cluster-large {
+	background-color: rgba(200, 82, 99, 0.3);
+}
+
+.marker-cluster-large div {
+	background-color: rgba(200, 82, 99, 1);
+}
+
+.marker-cluster div {
+  color: #fff;
+}
+/* end customize leaflet marker cluster */
