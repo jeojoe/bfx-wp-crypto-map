@@ -3,7 +3,7 @@
 Plugin Name: BFX crypto map
 Plugin URI: https://bitfinex.com
 description: BFX crypto map
-Version: 1.0
+Version: 1.1.0
 Author: BFX
 Author URI: https://bitfinex.com
 License: GPL2
@@ -35,7 +35,7 @@ function bfx_crypto_map_handler( $atts ) {
   $html = <<<HTML
   <div class="bfx-crypto-container">
     <div class="bfx-crypto-filter">
-      <div class="bfx-crypto-filter-bar">
+      <div class="bfx-crypto-filter-bar bfx-crypto-filter-box">
         <div class="search-container">
           <img src="$asset_url/search.png" width="14" height="13" />
           <input id="bfx-crypto-search-input" type="search" placeholder="{$translator->translate('search')}" />
@@ -49,6 +49,14 @@ function bfx_crypto_map_handler( $atts ) {
           <div class="arrow">
             <img src="$asset_url/arrow-down.png" />
           </div>
+        </button>
+      </div>
+      <div class="bfx-crypto-filter-clear-all bfx-crypto-filter-box">
+        <button type="button" class="filter-btn" id="bfx-crypto-clear-filter-btn">
+          <div class="filter-icon-wrapper">
+            <img src="$asset_url/delete.png" />
+          </div>
+          <span>{$translator->translate('clear_filters')}</span>
         </button>
       </div>
       <div id="bfx-crypto-filter-popup" class="bfx-crypto-filter-popup">
@@ -415,6 +423,15 @@ function bfx_crypto_map_handler( $atts ) {
     jQuery('#bfx-crypto-filter-popup-overlay').on('click', function () {
       jQuery('#bfx-crypto-filter-popup').removeClass('active');
       jQuery('#bfx-crypto-filter-popup-overlay').removeClass('active');
+    });
+
+
+    jQuery('#bfx-crypto-clear-filter-btn').on('click', function () {
+      jQuery('.filter-checkbox input')
+        .each(function() {
+          jQuery(this).prop('checked', false);
+        });
+      filterMarkers();
     });
 
     jQuery
