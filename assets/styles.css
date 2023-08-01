@@ -105,13 +105,23 @@
 }
 
 @media screen and (max-width: 768px) {
-  .bfx-crypto-filter, .bfx-crypto-filter-bar {
+  .bfx-crypto-filter {
+    flex-direction: column;
+  }
+
+  .bfx-crypto-filter, .bfx-crypto-filter-bar, .bfx-crypto-filter-clear-all {
     width: 280px;
   }
 
-  .bfx-crypto-filter-clear-all {
-    display: none;
+  .bfx-crypto-filter .bfx-crypto-filter-clear-all .filter-btn {
+    width: 100%;
+    justify-content: center;
   }
+
+  .bfx-crypto-filter .bfx-crypto-filter-clear-all .filter-btn span {
+    display: block;
+  }
+
 }
 
 .bfx-crypto-filter-bar > * {
