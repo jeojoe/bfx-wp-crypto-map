@@ -363,7 +363,7 @@
     "website": "https://www.backtobasik.ch",
     "description": "",
     "gocryptoId": 2877,
-    "title": "B2B Back 2 Basik",
+    "title": "Be Different",
     "vat": "756.9712.3114.82",
     "lat": 46.017115,
     "lng": 8.957275,
@@ -577,8 +577,8 @@
     "gocryptoId": 2893,
     "title": "Boatcenter Lugano",
     "vat": "CHE-111.654.784",
-    "lat": 45.999752,
-    "lng": 8.948743,
+    "lat": 45.9997537343152,
+    "lng": 8.948743298112328,
     "tags": [
       "services",
       "food_and_drink"
@@ -620,8 +620,8 @@
     "gocryptoId": 2544,
     "title": "Boutique Bolle di Sapone",
     "vat": "CHE-363.807.056",
-    "lat": 46.006561,
-    "lng": 8.966784,
+    "lat": 46.011604071088264,
+    "lng": 8.962847062530399,
     "tags": [
       "fashion"
     ],
@@ -753,8 +753,7 @@
     ],
     "accepted_cryptos": [
       "BTC",
-      "UST",
-      "LVGA"
+      "UST"
     ],
     "id": 36
   },
@@ -1651,8 +1650,8 @@
     "gocryptoId": 2583,
     "title": "Historian Lugano",
     "vat": "CHE-101.165.213",
-    "lat": 46.005573,
-    "lng": 8.953762,
+    "lat": 46.00557463411937,
+    "lng": 8.95376353921693,
     "tags": [
       "retail"
     ],
@@ -1727,7 +1726,7 @@
     "id": 82
   },
   {
-    "address": "Via Ugo Besso 57 - 6900 Lugano",
+    "address": "Via Besso 57 - 6900 Lugano",
     "phone": "",
     "logo_url": "https://s3.eu-central-1.amazonaws.com/public.elipay.com/live-3514d179aac2/source/images/961b5818a7a541129dc09a06c1e35c30.jpg",
     "website": "https://www.ilpiccolo.ch",
@@ -1735,8 +1734,8 @@
     "gocryptoId": 2798,
     "title": "Il Piccolo",
     "vat": "CHE-427.204.483",
-    "lat": 46.009918,
-    "lng": 8.937568,
+    "lat": 46.00990286800682,
+    "lng": 8.937556669277102,
     "tags": [
       "home_and_garden"
     ],
@@ -2421,7 +2420,7 @@
     "id": 115
   },
   {
-    "address": "Piazza Riforma - 6900 Lugano",
+    "address": "Via dei Gorini 2 - 6900 Lugano",
     "phone": "",
     "logo_url": "https://s3.eu-central-1.amazonaws.com/public.elipay.com/live-3514d179aac2/source/images/52126748ecab4e02b65f38068b30e347.jpg",
     "website": "https://www.musicdoor.com",
@@ -2429,8 +2428,8 @@
     "gocryptoId": 676,
     "title": "Musicdoor",
     "vat": "CHE-201.049.033",
-    "lat": 46.003496,
-    "lng": 8.950999,
+    "lat": 46.004109,
+    "lng": 8.950806,
     "tags": [
       "electronics"
     ],
@@ -2597,8 +2596,8 @@
     "gocryptoId": 459,
     "title": "Osteria dell’Indipendenza",
     "vat": "CHE-429.233.142",
-    "lat": 46.006124,
-    "lng": 8.952848,
+    "lat": 46.00602885735982,
+    "lng": 8.952751866138382,
     "tags": [
       "food_and_drink"
     ],
@@ -3392,8 +3391,8 @@
     "gocryptoId": 2617,
     "title": "Shisha Bar El Cid Lugano",
     "vat": "CHE-180.957.282",
-    "lat": 46.008433,
-    "lng": 8.940233,
+    "lat": 45.99764275983836,
+    "lng": 8.943710087883161,
     "tags": [
       "food_and_drink"
     ],
@@ -3508,27 +3507,6 @@
       "LVGA"
     ],
     "id": 167
-  },
-  {
-    "address": "Via alla Stampa 21 - 6965 Cadro",
-    "phone": "",
-    "logo_url": "https://s3.eu-central-1.amazonaws.com/public.elipay.com/live-3514d179aac2/source/images/90ff6229f1c3408eb5055a77cac71b83.jpg",
-    "website": "https://www.swisscolorsagl.ch",
-    "description": "",
-    "gocryptoId": 2576,
-    "title": "Swisscolor",
-    "vat": "CHE-115.235.185",
-    "lat": 46.043136,
-    "lng": 8.974793,
-    "tags": [
-      "services"
-    ],
-    "accepted_cryptos": [
-      "BTC",
-      "UST",
-      "LVGA"
-    ],
-    "id": 168
   },
   {
     "address": "Via Zurigo 2 - 6900 Lugano",
@@ -4451,25 +4429,6 @@
     "id": 214
   },
   {
-    "address": "Corso Pestalozzi 13 - 6900 Lugano",
-    "phone": "+41 91 923 43 43",
-    "logo_url": "",
-    "website": "https://www.hotelzurigo.ch/",
-    "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
-    "gocryptoId": null,
-    "title": "Hotel Zurigo Downtown",
-    "vat": "CHE-293.084.817",
-    "lat": 46.006122,
-    "lng": 8.9533728,
-    "tags": [
-      "services"
-    ],
-    "accepted_cryptos": [
-      "LVGA"
-    ],
-    "id": 215
-  },
-  {
     "address": "Via Sonvico 9 - 6952 Canobbio",
     "phone": "+41 91 941 78 66",
     "logo_url": "",
@@ -4805,8 +4764,8 @@
     "gocryptoId": null,
     "title": "mdp Michele Di Paolo",
     "vat": "CHE-139.420.543",
-    "lat": 46.1679097,
-    "lng": 8.7854434,
+    "lat": 46.00718803252281,
+    "lng": 8.953926240649787,
     "tags": [
       "services"
     ],
@@ -5006,7 +4965,7 @@
     "id": 243
   },
   {
-    "address": "Via al Chioso 2 - 6900 Lugano",
+    "address": "Via Chiosso 2 - 6948 Porza",
     "phone": "+41 91 935 19 20",
     "logo_url": "",
     "website": "https://www.hclugano.ch/club-41/?fbclid=IwAR10QjPzlzbiHAbBz19Eg8_i3bWwHdmFlysSCRzd-Cigy5AA591iPmRiW3U",
@@ -5014,8 +4973,8 @@
     "gocryptoId": null,
     "title": "Ristorante Club '41 - HCL",
     "vat": "CHE-105.620.400",
-    "lat": 46.0085842,
-    "lng": 8.960956,
+    "lat": 46.02520229654331,
+    "lng": 8.963397546784579,
     "tags": [
       "food_and_drink"
     ],
@@ -5297,7 +5256,7 @@
     "website": "https://www.lugano.ch/vivere-lugano/sport/infrastrutture-sportive/pista-ghiaccio-resega/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": null,
-    "title": "Pista del Ghiccio",
+    "title": "Pista del Ghiaccio",
     "vat": "",
     "lat": 46.02673710000001,
     "lng": 8.9637323,
