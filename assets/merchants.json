@@ -5576,17 +5576,18 @@
     "id": 273
   },
   {
+    "address": "Corso Pestalozzi 14 - 6900 Lugano",
+    "phone": "41 91 923 53 63",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Agorà i parrucchieri di Umberto Persano",
     "vat": "CHE-109.577.499",
-    "lat": "",
-    "lng": "",
+    "lat": 46.00548089999999,
+    "lng": 8.9546647,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5596,17 +5597,18 @@
     "id": 273
   },
   {
+    "address": "Piazza Riforma 1 - 6900 Lugano",
+    "phone": "41 91 923 80 80",
+    "logo_url": "",
     "website": "https://agualugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Agua",
     "vat": "CHE-318.185.509",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0033459,
+    "lng": 8.951509699999999,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5616,17 +5618,18 @@
     "id": 274
   },
   {
+    "address": "Via Manzoni 6 - 6900 Lugano",
+    "phone": "41 78 620 80 64",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Animal Tattoo",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0061067,
+    "lng": 8.945019799999999,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5636,17 +5639,18 @@
     "id": 275
   },
   {
+    "address": "Via Luvini 3 - 6900 Lugano",
+    "phone": "41 76 823 81 50",
+    "logo_url": "",
     "website": "https://barberrootslugano.wordpress.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Barber Roots Lvgano",
     "vat": "CHE-224.459.057",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042536,
+    "lng": 8.9511748,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5656,17 +5660,18 @@
     "id": 276
   },
   {
+    "address": "Via Lavizzari 9 - 6900 Lugano",
+    "phone": "41 79 831 05 86",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "BEC Vintage & Sartoria",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0066254,
+    "lng": 8.9578148,
     "tags": [
-      "retail + services",
-      "",
-      ""
+      "retail + services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5676,17 +5681,18 @@
     "id": 277
   },
   {
+    "address": "Viale Cattaneo 19 - 6900 Lugano",
+    "phone": "41 91 972 58 08",
+    "logo_url": "",
     "website": "https://www.boutiqueperlaschiena.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Boutique per la schiena",
     "vat": "CHE-114.595.333",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0059025,
+    "lng": 8.9592858,
     "tags": [
-      "retail",
-      "",
-      ""
+      "retail"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5696,17 +5702,18 @@
     "id": 278
   },
   {
+    "address": "Via Stauffacher 1 - 6900 Lugano",
+    "phone": "41 91 973 71 11",
+    "logo_url": "",
     "website": "https://casinolugano.ch/ristorante/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Casinò Lugano (Ristorante Elementi + bar ai piani)",
     "vat": "CHE-102.147.258",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0041492,
+    "lng": 8.9551211,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5716,17 +5723,18 @@
     "id": 279
   },
   {
+    "address": "Piazza Riforma 1 - 6900 Lugano",
+    "phone": "41 91 923 12 59",
+    "logo_url": "",
     "website": "https://cigarmust.com/it/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Cigar Must",
     "vat": "CHE-366.132.361",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0033459,
+    "lng": 8.951509699999999,
     "tags": [
-      "retail",
-      "",
-      ""
+      "retail"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5736,17 +5744,18 @@
     "id": 280
   },
   {
+    "address": "Via della Posta 8 - 6900 Lugano",
+    "phone": "41 91 922 97 67",
+    "logo_url": "",
     "website": "https://www.farmaciacentralelugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Farmacia Centrale Küng",
     "vat": "CHE-106.451.146",
-    "lat": "",
-    "lng": "",
+    "lat": 46.004969,
+    "lng": 8.952707799999999,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5756,17 +5765,18 @@
     "id": 281
   },
   {
+    "address": "Via al Ponte 1/3 - 6900 Lugano",
+    "phone": "41 91 968 25 27",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Garage Autobesso",
     "vat": "CHE-108.433.449",
-    "lat": "",
-    "lng": "",
+    "lat": 46.008145,
+    "lng": 8.941362,
     "tags": [
-      "auto_and_moto",
-      "",
-      ""
+      "auto_and_moto"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5776,17 +5786,18 @@
     "id": 282
   },
   {
+    "address": "Via Orti 8 - 6900 Lugano",
+    "phone": "41 91 922 75 70",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Gelateria Kiss for You",
     "vat": "CHE-433.229.592",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0124315,
+    "lng": 8.956531,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5796,17 +5807,18 @@
     "id": 283
   },
   {
+    "address": "Via Besso 41 A - 6900 Lugano",
+    "phone": "41 91 220 03 18",
+    "logo_url": "",
     "website": "https://geonika.shop/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Geonika Copy Shop",
     "vat": "CHE-283.395.636",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0091267,
+    "lng": 8.939435699999999,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5816,17 +5828,18 @@
     "id": 284
   },
   {
+    "address": "Via Paolo Regazzoni 8 - 6900 Lugano",
+    "phone": "41 91 910 08 08",
+    "logo_url": "",
     "website": "https://www.hotel-federale.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Hotel Federale",
     "vat": "CHE-444.678.474",
-    "lat": "",
-    "lng": "",
+    "lat": 46.00560429999999,
+    "lng": 8.9478277,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5836,37 +5849,37 @@
     "id": 285
   },
   {
+    "address": "Via Bossi 6 - 6900 Lugano",
+    "phone": "41 78 614 01 38",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Il Tempo dell'Ascolto",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0067057,
+    "lng": 8.9545925,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
-      "",
-      "",
       "LVGA"
     ],
     "id": 286
   },
   {
+    "address": "Via Pretorio 11 - 6900 Lugano",
+    "phone": "41 91 923 44 74",
+    "logo_url": "",
     "website": "https://www.sanders.it/analisi-gratuita/?utm_medium=cpc&utm_source=google&utm_content=search_na_brand_prospect_na_vvkc59aa3ef9e9e6330183c&utm_campaign=sanders_tricologico_analisi_lead_brand&gad=1&gclid=Cj0KCQjwwvilBhCFARIsADvYi7K4bxf5t_ukwUGCB-nkv1Hv58L4t2zheq9MSaeAMpNv6ELNgxz6q38aAoGWEALw_wcB",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Istituto Sanders",
     "vat": "CHE-103.763.684",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0065496,
+    "lng": 8.951783599999999,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5876,17 +5889,18 @@
     "id": 287
   },
   {
+    "address": "Via Maggio 1 - 6900 Lugano",
+    "phone": "41 78 240 24 40",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "iWash",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0084341,
+    "lng": 8.9612121,
     "tags": [
-      "auto_and_moto",
-      "",
-      ""
+      "auto_and_moto"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5896,17 +5910,18 @@
     "id": 288
   },
   {
+    "address": "6963 Pregassona - Lugano",
+    "phone": "41 79 961 00 25",
+    "logo_url": "",
     "website": "https://lugadrive.ch/?gclid=Cj0KCQjwwvilBhCFARIsADvYi7LYBi7emJYG8PnrrnLTytfqY1ka-snBOJ9liw4xGA7mNKKXYqZRE70aAshwEALw_wcB",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "LugaDrive",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0208046,
+    "lng": 8.975589,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5916,17 +5931,18 @@
     "id": 289
   },
   {
+    "address": "Stràda de Sòra 10 - 6968 Sonvico",
+    "phone": "41 76 367 78 61",
+    "logo_url": "",
     "website": "https://luther-artink-tattoo.business.site/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Luther Art Ink",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0525105,
+    "lng": 8.9881271,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5936,17 +5952,18 @@
     "id": 290
   },
   {
+    "address": "Vicolo Ariosto 4 - 6900 Lugano",
+    "phone": "41 91 923 14 18",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Marilù Shoes & Bags",
     "vat": "CHE-106.972.149",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0059321,
+    "lng": 8.951289899999999,
     "tags": [
-      "retail",
-      "",
-      ""
+      "retail"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5956,17 +5973,18 @@
     "id": 291
   },
   {
+    "address": "Via Vegezzi 4 - 6900 Lugano",
+    "phone": "41 91 923 45 70",
+    "logo_url": "",
     "website": "https://www.mauriconcept.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Mauri Concept Food & Beverage",
     "vat": "CHE-484.137.003",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0045385,
+    "lng": 8.9520821,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5976,17 +5994,18 @@
     "id": 292
   },
   {
+    "address": "Via Nassa 3 A - 6900 Lugano",
+    "phone": "41 91 923 14 54",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Obliò Parrucchieri",
     "vat": "CHE-105.181.300",
-    "lat": "",
-    "lng": "",
+    "lat": 46.003367,
+    "lng": 8.9505274,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -5996,17 +6015,18 @@
     "id": 293
   },
   {
+    "address": "Via Pretorio 14 - 6900 Lugano",
+    "phone": "41 91 922 03 72",
+    "logo_url": "",
     "website": "https://www.otticomichellugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Ottico Michel di Claudia",
     "vat": "CHE-172.756.385",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0063018,
+    "lng": 8.9521666,
     "tags": [
-      "retail",
-      "",
-      ""
+      "retail"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6016,17 +6036,18 @@
     "id": 294
   },
   {
+    "address": "Via alla Madonnetta 23 - 6900 Lugano",
+    "phone": "41 77 902 86 90",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Pesperuncino",
     "vat": "CHE-206.367.262",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0115627,
+    "lng": 8.9586142,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6036,17 +6057,18 @@
     "id": 295
   },
   {
+    "address": "Piazza Cioccaro 8 - 6900 Lugano",
+    "phone": "41 91 923 10 68",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Ristorante Cantinone",
     "vat": "CHE-408.001.092",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0051115,
+    "lng": 8.9500422,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6056,17 +6078,18 @@
     "id": 296
   },
   {
+    "address": "Via Pessina 12 - 6900 Lugano",
+    "phone": "41 91 911 30 80",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Gabbani Portici",
     "vat": "CHE-159.257.683",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042078,
+    "lng": 8.9504402,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6076,17 +6099,18 @@
     "id": 297
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 911 30 80 ",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Gabbani Enoteca",
     "vat": "CHE-159.257.683",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6096,17 +6120,18 @@
     "id": 298
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 911 30 80 ",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Gabbani Panetteria",
     "vat": "CHE-159.257.683",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6116,17 +6141,18 @@
     "id": 299
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 911 30 95",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Bar Ristorante Gabbani",
     "vat": "CHE-408.001.092",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6136,37 +6162,38 @@
     "id": 300
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 921 34 70",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Hotel Gabbani",
     "vat": "CHE-408.001.092",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
-      "UST",
-      ""
+      "UST"
     ],
     "id": 301
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 911 30 98",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Club G.",
     "vat": "CHE-408.001.092",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6176,17 +6203,18 @@
     "id": 302
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 911 30 80 ",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Gabbani Frutteto",
     "vat": "CHE-159.257.683",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6196,17 +6224,18 @@
     "id": 303
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 911 30 80 ",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Gabbani Macelleria",
     "vat": "CHE-159.257.683",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6216,17 +6245,18 @@
     "id": 304
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 911 30 80 ",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Gabbani Formaggeria",
     "vat": "CHE-159.257.683",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6236,17 +6266,18 @@
     "id": 305
   },
   {
+    "address": "Piazza Cioccaro 1 - 6900 Lugano",
+    "phone": "41 91 911 30 95",
+    "logo_url": "",
     "website": "https://www.gabbani.com/home/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Ristorante Ikobani",
     "vat": "CHE-408.001.092",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0042947,
+    "lng": 8.9501758,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6256,17 +6287,18 @@
     "id": 306
   },
   {
+    "address": "Via Carlo Cattaneo 21 - 6900 Lugano",
+    "phone": "41 91 225 79 77",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Ristorante La Fermata",
     "vat": "CHE-336.462.724",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0059188,
+    "lng": 8.9595582,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6276,17 +6308,18 @@
     "id": 307
   },
   {
+    "address": "Via Comunale 10 - 6916 Grancia",
+    "phone": "41 79 792 65 79",
+    "logo_url": "",
     "website": "https://it-ch.rugbytots.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Rugbytots Ticino",
     "vat": "CHE-109.629.908",
-    "lat": "",
-    "lng": "",
+    "lat": 45.97026340000001,
+    "lng": 8.9246511,
     "tags": [
-      "sports_and_leisure",
-      "",
-      ""
+      "sports_and_leisure"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6296,17 +6329,18 @@
     "id": 308
   },
   {
+    "address": "Via Besso 11 - 6900 Lugano",
+    "phone": "41 76 740 05 67",
+    "logo_url": "",
     "website": "https://amailtuostilepf.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Salone di Bellezza Ama il tuo Stile",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.00588339999999,
+    "lng": 8.9434065,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6316,17 +6350,18 @@
     "id": 309
   },
   {
+    "address": "Via Trevano 37 - 6900 Lugano",
+    "phone": "41 91 971 37 73",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Salone Raggi di sole",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.01632739999999,
+    "lng": 8.9554109,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6336,17 +6371,18 @@
     "id": 310
   },
   {
+    "address": "Corso Pestalozzi 12 - 6900 Lugano",
+    "phone": "41 91 222 62 96",
+    "logo_url": "",
     "website": "https://stage12.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Stage 12",
     "vat": "CHE-373.349.859",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0055191,
+    "lng": 8.954462,
     "tags": [
-      "retail",
-      "",
-      ""
+      "retail"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6356,17 +6392,18 @@
     "id": 311
   },
   {
+    "address": "Via Industria 1 - 6807 Taverne",
+    "phone": "41 91 930 98 02",
+    "logo_url": "",
     "website": "https://www.staglio.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Staglio - La pizza al taglio",
     "vat": "CHE-262.378.112",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0605864,
+    "lng": 8.9288416,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6376,17 +6413,18 @@
     "id": 312
   },
   {
+    "address": "Piazza Indipendenza 1 - Lugano",
+    "phone": "41 91 921 44 77",
+    "logo_url": "",
     "website": "",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Viva Restaurant",
     "vat": "CHE-292.726.790",
-    "lat": "",
-    "lng": "",
+    "lat": 46.004752,
+    "lng": 8.9547259,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6396,17 +6434,18 @@
     "id": 313
   },
   {
+    "address": "Via Zurigo 2 - 6900 Lugano",
+    "phone": "41 78 930 15 99",
+    "logo_url": "",
     "website": "https://yourstylebarber.com/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Your Style Barber Shop",
     "vat": "",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0114753,
+    "lng": 8.9564548,
     "tags": [
-      "services",
-      "",
-      ""
+      "services"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6416,17 +6455,18 @@
     "id": 314
   },
   {
+    "address": "Via Monda 1 - 6528 Camorino",
+    "phone": "41 91 840 12 02",
+    "logo_url": "",
     "website": "https://z-bike.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Z-Bike Camorino",
     "vat": "CHE-378.862.041",
-    "lat": "",
-    "lng": "",
+    "lat": 46.16633789999999,
+    "lng": 8.993789099999999,
     "tags": [
-      "sports_and_leisure",
-      "",
-      ""
+      "sports_and_leisure"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6436,17 +6476,18 @@
     "id": 315
   },
   {
+    "address": "Via Varesi 7 A, Residenza Bella 1 - 6600 Locarno",
+    "phone": "41 91 970 13 23",
+    "logo_url": "",
     "website": "https://z-bike.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Z-Bike Locarno",
     "vat": "CHE-378.862.041",
-    "lat": "",
-    "lng": "",
+    "lat": 46.1661411,
+    "lng": 8.794825,
     "tags": [
-      "sports_and_leisure",
-      "",
-      ""
+      "sports_and_leisure"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6456,17 +6497,18 @@
     "id": 316
   },
   {
+    "address": "Via Vignola 14 - 6900 Lugano",
+    "phone": "41 91 976 05 45",
+    "logo_url": "",
     "website": "https://z-bike.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Z-Bike Lugano",
     "vat": "CHE-378.862.041",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0158991,
+    "lng": 8.9587717,
     "tags": [
-      "sports_and_leisure",
-      "",
-      ""
+      "sports_and_leisure"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6476,17 +6518,18 @@
     "id": 317
   },
   {
+    "address": "Via Carlo Pasta 25 - 6850 Mendrisio",
+    "phone": "41 91 970 11 22",
+    "logo_url": "",
     "website": "https://z-bike.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Z-Bike Mendrisio",
     "vat": "CHE-378.862.041",
-    "lat": "",
-    "lng": "",
+    "lat": 45.8756771,
+    "lng": 8.9865586,
     "tags": [
-      "sports_and_leisure",
-      "",
-      ""
+      "sports_and_leisure"
     ],
     "accepted_cryptos": [
       "BTC",
@@ -6496,17 +6539,18 @@
     "id": 318
   },
   {
+    "address": "Via della Posta 2 - 6900 Lugano",
+    "phone": "41 91 921 39 03",
+    "logo_url": "",
     "website": "https://convivio-lugano.ch/",
     "description": "MyLugano Card (residents): 10% Cashback in LVGA\nMyLugano Pass (non-residents): 5% cashback in LVGA",
     "gocryptoId": "",
     "title": "Convivio Lugano - bacco e luppolo",
     "vat": "CHE-448.115.661",
-    "lat": "",
-    "lng": "",
+    "lat": 46.0044949,
+    "lng": 8.9530779,
     "tags": [
-      "food_and_drink",
-      "",
-      ""
+      "food_and_drink"
     ],
     "accepted_cryptos": [
       "BTC",
