@@ -51,7 +51,7 @@ function bfx_crypto_map_handler( $atts ) {
           </div>
         </button>
       </div>
-      <div class="bfx-crypto-filter-clear-all bfx-crypto-filter-box">
+      <div class="bfx-crypto-filter-clear-all bfx-crypto-filter-box hidden">
         <button type="button" class="filter-btn" id="bfx-crypto-clear-filter-btn">
           <div class="filter-icon-wrapper">
             <img src="$asset_url/delete.png" />
@@ -229,14 +229,14 @@ function bfx_crypto_map_handler( $atts ) {
     const markerGroup = L.markerClusterGroup();
 
     const markerIcon = L.icon({
-      iconUrl: '$asset_url/marker-icon-inactive.png',
+      iconUrl: '$asset_url/marker-pin-inactive.png',
       iconSize: [21, 27],
       iconAnchor: [10, 27],
       popupAnchor: [1, -20],
     });
 
     const activeMarkerIcon = L.icon({
-      iconUrl: '$asset_url/marker-icon-active.png',
+      iconUrl: '$asset_url/marker-pin-active.png',
       iconSize: [21, 27],
       iconAnchor: [10, 27],
       popupAnchor: [1, -20],
@@ -382,8 +382,10 @@ function bfx_crypto_map_handler( $atts ) {
 
       if (numberOfFilter > 0) {
         jQuery('#filter-number').html(numberOfFilter + '').addClass('active');
+        jQuery('.bfx-crypto-filter-clear-all').removeClass('hidden');
       } else {
         jQuery('#filter-number').html('').removeClass('active');
+        jQuery('.bfx-crypto-filter-clear-all').addClass('hidden');
       }
 
       const filteredData = MERCHANT_DATA.filter(function (merchant) {

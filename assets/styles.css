@@ -104,6 +104,10 @@
   padding-right: 12px;
 }
 
+.bfx-crypto-filter-clear-all.hidden {
+  visibility: hidden;
+}
+
 @media screen and (max-width: 768px) {
   .bfx-crypto-filter {
     flex-direction: column;
