@@ -104,14 +104,28 @@
   padding-right: 12px;
 }
 
+.bfx-crypto-filter-clear-all.hidden {
+  visibility: hidden;
+}
+
 @media screen and (max-width: 768px) {
-  .bfx-crypto-filter, .bfx-crypto-filter-bar {
+  .bfx-crypto-filter {
+    flex-direction: column;
+  }
+
+  .bfx-crypto-filter, .bfx-crypto-filter-bar, .bfx-crypto-filter-clear-all {
     width: 280px;
   }
 
-  .bfx-crypto-filter-clear-all {
-    display: none;
+  .bfx-crypto-filter .bfx-crypto-filter-clear-all .filter-btn {
+    width: 100%;
+    justify-content: center;
   }
+
+  .bfx-crypto-filter .bfx-crypto-filter-clear-all .filter-btn span {
+    display: block;
+  }
+
 }
 
 .bfx-crypto-filter-bar > * {
@@ -298,3 +312,33 @@
   margin: 0;
 }
 /* end leaflet reset */
+
+/* start customize leaflet marker cluster */
+.marker-cluster-small {
+	background-color: rgba(200, 82, 99, 0.3);
+}
+
+.marker-cluster-small div {
+	background-color: rgba(200, 82, 99, 0.4);
+}
+
+.marker-cluster-medium {
+	background-color: rgba(200, 82, 99, 0.3);
+}
+
+.marker-cluster-medium div {
+	background-color: rgba(200, 82, 99, 0.6);
+}
+
+.marker-cluster-large {
+	background-color: rgba(200, 82, 99, 0.3);
+}
+
+.marker-cluster-large div {
+	background-color: rgba(200, 82, 99, 1);
+}
+
+.marker-cluster div {
+  color: #fff;
+}
+/* end customize leaflet marker cluster */

@@ -3,7 +3,7 @@
 Plugin Name: BFX crypto map
 Plugin URI: https://bitfinex.com
 description: BFX crypto map
-Version: 1.1.0
+Version: 1.1.4
 Author: BFX
 Author URI: https://bitfinex.com
 License: GPL2
@@ -51,7 +51,7 @@ function bfx_crypto_map_handler( $atts ) {
           </div>
         </button>
       </div>
-      <div class="bfx-crypto-filter-clear-all bfx-crypto-filter-box">
+      <div class="bfx-crypto-filter-clear-all bfx-crypto-filter-box hidden">
         <button type="button" class="filter-btn" id="bfx-crypto-clear-filter-btn">
           <div class="filter-icon-wrapper">
             <img src="$asset_url/delete.png" />
@@ -229,16 +229,16 @@ function bfx_crypto_map_handler( $atts ) {
     const markerGroup = L.markerClusterGroup();
 
     const markerIcon = L.icon({
-      iconUrl: '$asset_url/marker-icon.png',
-      iconSize: [20, 20],
-      iconAnchor: [10, 20],
+      iconUrl: '$asset_url/marker-pin-inactive.png',
+      iconSize: [21, 27],
+      iconAnchor: [10, 27],
       popupAnchor: [1, -20],
     });
 
     const activeMarkerIcon = L.icon({
-      iconUrl: '$asset_url/active-marker-icon.png',
-      iconSize: [20, 20],
-      iconAnchor: [10, 20],
+      iconUrl: '$asset_url/marker-pin-active.png',
+      iconSize: [21, 27],
+      iconAnchor: [10, 27],
       popupAnchor: [1, -20],
     });
 
@@ -382,8 +382,10 @@ function bfx_crypto_map_handler( $atts ) {
 
       if (numberOfFilter > 0) {
         jQuery('#filter-number').html(numberOfFilter + '').addClass('active');
+        jQuery('.bfx-crypto-filter-clear-all').removeClass('hidden');
       } else {
         jQuery('#filter-number').html('').removeClass('active');
+        jQuery('.bfx-crypto-filter-clear-all').addClass('hidden');
       }
 
       const filteredData = MERCHANT_DATA.filter(function (merchant) {
@@ -470,7 +472,7 @@ function bfx_crypto_map_shortcode_scripts() {
     wp_enqueue_style( 'leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', array(), null);
     wp_enqueue_style( 'leaflet-marker-cluster', 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css', array('leaflet'), null);
     wp_enqueue_style( 'leaflet-marker-cluster-default', 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css', array('leaflet', 'leaflet-marker-cluster'), null);
-    wp_enqueue_style( 'leaflet-custom', plugin_dir_url(__FILE__) . 'assets/styles.css', array('leaflet'), null);
+    wp_enqueue_style( 'leaflet-custom', plugin_dir_url(__FILE__) . 'assets/styles.css', array('leaflet'));
   }
 }
 
